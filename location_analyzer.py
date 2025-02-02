@@ -17,6 +17,7 @@ from datetime import datetime
 import hashlib
 from dotenv import load_dotenv
 import requests
+from usaspending_api import USASpendingAPI
 
 # Load environment variables from .env.local first, then fall back to .env
 load_dotenv('.env.local')
@@ -36,18 +37,25 @@ KML_NS = {
 }
 
 class LocationAnalyzer:
-    def __init__(self, kml_file_path: str, max_places: int = None, debug: bool = False, bust_cache: bool = False):
+    def __init__(self, kml_file_path: str, max_places: int = None, debug: bool = False, bust_cache: bool = False, search_radius_miles: float = 50):
         """Initialize the LocationAnalyzer with a KML file path."""
         self.kml_file_path = kml_file_path
         self.max_places = max_places
         self.debug = debug
         self.bust_cache = bust_cache
+        self.search_radius_miles = search_radius_miles
         self.locations = []
         self.geolocator = Nominatim(user_agent="location_analyzer")
         self.api_key = os.getenv("SERPAPI_KEY")
         if not self.api_key:
             raise ValueError("SERPAPI_KEY environment variable not set")
-            
+        
+        # Initialize USASpending API client
+        self.contract_api = USASpendingAPI(radius_miles=search_radius_miles)
+        
+        # Initialize results storage
+        self.contract_results = {}
+        
         # Validate API key before proceeding
         if not self._validate_api_key():
             raise ValueError("Invalid SERPAPI_KEY - please check your API key at https://serpapi.com/manage-api-key")
@@ -464,45 +472,101 @@ class LocationAnalyzer:
         
         return search_results
 
+    def _extract_coordinates(self, placemark) -> Tuple[float, float]:
+        """Extract coordinates from a KML placemark."""
+        coords = placemark.Point.coordinates.text.strip().split(',')
+        return float(coords[1]), float(coords[0])  # lat, lon
+        
+    def analyze_contracts(self, placemark) -> Dict:
+        """Analyze government contracts for a location."""
+        try:
+            lat, lon = self._extract_coordinates(placemark)
+            
+            logger.info(f"ALAINA: Searching for contracts near {placemark.name.text if hasattr(placemark, 'name') else 'Unknown'} ({lat}, {lon})")
+            
+            # Search for contracts
+            contracts = self.contract_api.search_contracts_by_location(
+                latitude=lat,
+                longitude=lon,
+                bust_cache=self.bust_cache
+            )
+            
+            # Analyze the results
+            analysis = self.contract_api.analyze_contracts(contracts)
+            
+            # Store results
+            self.contract_results[placemark.name.text if hasattr(placemark, 'name') else f"{lat},{lon}"] = analysis
+            
+            return analysis
+            
+        except Exception as e:
+            logger.error(f"ALAINA: Error analyzing contracts for location: {str(e)}")
+            return {
+                "error": str(e),
+                "total_contracts": 0,
+                "total_value": 0,
+                "top_contractors": [],
+                "summary": "Error analyzing contracts for this location."
+            }
+
 def main():
     """Main function to demonstrate usage."""
-    parser = argparse.ArgumentParser(description='Analyze locations from a KML file')
-    parser.add_argument('--kml-file', default="Imminent_Domain.kml",
-                      help='Path to the KML file (default: Imminent_Domain.kml)')
-    parser.add_argument('--max-places', type=int,
-                      help='Maximum number of places to process (default: all)')
-    parser.add_argument('--debug', action='store_true',
-                      help='Enable debug logging')
-    parser.add_argument('--max-results', type=int, default=5,
-                      help='Maximum number of search results per query (default: 5)')
-    parser.add_argument('--bust-cache', action='store_true',
-                      help='Ignore existing cache and fetch fresh results')
+    arg_parser = argparse.ArgumentParser(description="Analyze locations from a KML file")
+    arg_parser.add_argument("--kml-file", default="Imminent_Domain.kml", help="Path to KML file")
+    arg_parser.add_argument("--max-places", type=int, help="Maximum number of places to process")
+    arg_parser.add_argument("--max-results", type=int, default=5, help="Maximum number of search results per place")
+    arg_parser.add_argument("--bust-cache", action="store_true", help="Ignore cached results")
+    arg_parser.add_argument("--debug", action="store_true", help="Enable debug logging")
+    arg_parser.add_argument("--search-radius", type=float, default=50, help="Search radius in miles for contract analysis")
+    arg_parser.add_argument("--contracts-only", action="store_true", help="Only perform contract analysis (skip web search)")
     
-    args = parser.parse_args()
+    args = arg_parser.parse_args()
     
     try:
-        analyzer = LocationAnalyzer(args.kml_file, args.max_places, args.debug, args.bust_cache)
-        analyzer.parse_kml()
+        analyzer = LocationAnalyzer(
+            args.kml_file,
+            max_places=args.max_places,
+            debug=args.debug,
+            bust_cache=args.bust_cache,
+            search_radius_miles=args.search_radius
+        )
         
-        # Search for information about each location
-        results = analyzer.search_location_context(max_results=args.max_results)
+        with open(args.kml_file, 'rb') as f:
+            kml_doc = parser.parse(f).getroot()
+            
+        placemarks = kml_doc.findall(".//kml:Placemark", namespaces=KML_NS)
         
-        # Print results
-        for location_result in results:
-            logger.info(f"ALAINA: Results for {location_result['location']}:")
-            if not location_result['results']:
-                logger.info("ALAINA: No results found")
-                continue
-                
-            for idx, result in enumerate(location_result['results'], 1):
-                logger.info(f"ALAINA: Result {idx}:")
-                logger.info(f"ALAINA: Title: {result.get('title', 'N/A')}")
-                logger.info(f"ALAINA: Link: {result.get('link', 'N/A')}")
-                logger.info(f"ALAINA: Snippet: {result.get('body', 'N/A')}")
-                logger.info("ALAINA: ----------------------")
-
+        if args.max_places:
+            placemarks = placemarks[:args.max_places]
+            
+        logger.info(f"ALAINA: Processing {len(placemarks)} locations")
+        
+        for placemark in placemarks:
+            name = placemark.name.text if hasattr(placemark, 'name') else "Unknown Location"
+            logger.info(f"ALAINA: Processing {name}")
+            
+            # Perform contract analysis
+            contract_analysis = analyzer.analyze_contracts(placemark)
+            logger.info(f"ALAINA: Contract Analysis for {name}:")
+            logger.info(f"ALAINA: {contract_analysis['summary']}")
+            
+            if contract_analysis['top_contractors']:
+                logger.info("ALAINA: Top Contractors:")
+                for contractor, amount in contract_analysis['top_contractors'].items():
+                    logger.info(f"ALAINA:   - {contractor}: ${amount:,.2f}")
+            
+            # Perform web search unless contracts-only is specified
+            if not args.contracts_only:
+                search_results = analyzer.search_location_context(max_results=args.max_results)
+                if search_results:
+                    logger.info(f"ALAINA: Found {len(search_results)} web results for {name}")
+            
+            logger.info("ALAINA: " + "="*50)
+            
     except Exception as e:
-        logger.error(f"ALAINA: An error occurred: {str(e)}")
-
+        logger.error(f"ALAINA: Error processing file: {str(e)}")
+        if args.debug:
+            raise
+        
 if __name__ == "__main__":
     main() 

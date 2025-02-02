@@ -1,13 +1,64 @@
 # Location Search Tool
 
-This tool helps you discover information about places marked in Google Earth (KML) files. Think of it as a smart assistant that reads your map markers and finds relevant information about each location on the internet.
+This tool supports academic research by analyzing geographical locations from KML files and discovering relevant information through automated data collection and analysis. Originally developed to investigate organizational facilities and points of interest, it serves as a systematic approach to cross-referencing geographical data with publicly available information.
+
+## Research Applications
+
+This tool is particularly useful for:
+1. **Systematic Data Collection**: Automates the process of gathering public information about specific geographical locations
+2. **Cross-Reference Analysis**: Helps identify potential connections between locations and publicly available records
+3. **Historical Research**: Enables investigation of historical significance and past activities at specific locations
+4. **Pattern Analysis**: Assists in identifying geographical patterns and relationships between different locations
+5. **Documentation**: Maintains a structured record of findings for academic review and verification
+
+## Features
+
+### 1. Location Analysis
+- Processes KML files containing geographical markers and location data
+- Conducts systematic internet searches for each location
+- Implements caching to enable iterative research without redundant searches
+- Maintains detailed logs for research reproducibility
+
+### 2. Contract Analysis
+The tool integrates with USAspending.gov's API to analyze government contracts near specified locations:
+
+- **Geographic Coverage**: Searches contracts by state and ZIP code regions
+- **Time Range**: Defaults to 10-year historical data
+- **Contract Types**: Includes various award types (Contracts, Purchase Orders, Delivery Orders, etc.)
+- **Data Points**: Captures key information including:
+  - Award amounts and dates
+  - Recipient organizations
+  - Awarding/funding agencies
+  - Place of performance
+  - Contract descriptions
+
+Example contract data:
+```json
+{
+  "36.7811_-115.4435_5000.0": [
+    {
+      "Award ID": "DENA0003624",
+      "Recipient Name": "MISSION SUPPORT & TEST SERVICES LLC",
+      "Award Amount": 6096331200.02,
+      "Start Date": "2017-08-01",
+      "End Date": "2027-11-30",
+      "Place of Performance Zip5": "89193",
+      "Description": "IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003624 TO THE MISSION SUPPORT AND TEST SERVICES LLC (MSTS) FOR THE MANAGEMENT AND OPERATION OF THE DEPARTMENT OF ENERGY NATIONAL NUCLEAR SECURITY ADMINISTRATION'S NEVADA NATIONAL SECURITY SITE.",
+      "Awarding Agency": "Department of Energy",
+      "Funding Agency": "Department of Defense"
+    }
+  ]
+}
+```
+
+Results are cached in `contract_cache.json` using location coordinates as keys.
 
 ## What Does It Do?
 
-1. **Reads Your Map Data**: Takes KML files (the kind you export from Google Earth) and understands the places you've marked
-2. **Finds Information**: Searches the internet for each location to find relevant articles, websites, and information
-3. **Saves Time**: Remembers what it found before so you don't have to search for the same places twice
-4. **Tracks Usage**: Keeps track of how many searches you've made to help manage your search service costs
+1. **Reads Your Map Data**: Processes KML files containing geographical markers and location data
+2. **Finds Information**: Conducts systematic internet searches for each location to gather relevant documentation
+3. **Saves Time**: Implements caching to enable iterative research without redundant searches
+4. **Tracks Usage**: Maintains detailed logs of all searches for research reproducibility
 
 ## Getting Started
 
@@ -81,17 +132,47 @@ python location_analyzer.py --kml-file your_file.kml
 - `--max-results`: How many search results to get per place (default: 5)
 - `--bust-cache`: Get fresh results instead of using saved ones
 - `--debug`: Show detailed information about what's happening
+- `--search-radius`: Search radius in miles for contract analysis (default: 50)
+- `--contracts-only`: Only perform contract analysis (skip web search)
 
 Examples:
 ```bash
 # Process just 3 places
 python location_analyzer.py --max-places 3
 
-# Get fresh results (ignore cached data)
-python location_analyzer.py --bust-cache
+# Get fresh results with a 5000-mile search radius
+python location_analyzer.py --bust-cache --search-radius 5000
 
-# Get more search results per location
-python location_analyzer.py --max-results 10
+# Only analyze contracts, not web content
+python location_analyzer.py --contracts-only
+```
+
+## Output Files
+
+- `search_cache.json`: Cached web search results
+- `contract_cache.json`: Cached contract search results
+- `api_usage.log`: Record of all API calls and findings
+
+## Analysis Features
+
+### Contract Analysis
+The tool provides detailed contract analysis including:
+- Total contract value in the area
+- Top contractors by award amount
+- Awarding and funding agencies
+- Contract descriptions and purposes
+- Geographic distribution of contracts
+- Historical contract patterns
+
+Example analysis output:
+```
+Found 100 contracts worth $27,066,632,618.55
+Top Contractors:
+  - MISSION SUPPORT & TEST SERVICES LLC: $6,096,331,200.02
+  - NATIONAL SECURITY TECHNOLOGIES, LLC: $5,634,272,220.00
+  - SIERRA NEVADA COMPANY, LLC: $3,823,454,997.91
+  - JT4 LLC: $2,151,340,906.83
+  - BECHTEL SAIC COMPANY, LLC: $1,931,096,265.42
 ```
 
 ## How It Works Behind the Scenes
@@ -119,6 +200,7 @@ python location_analyzer.py --max-results 10
 ## Files You'll See
 
 - `search_cache.json`: Saved search results
+- `contract_cache.json`: Saved contract search results
 - `api_usage.log`: Record of all searches made
 - `.env`: Your private API key (never share this!)
 
@@ -149,4 +231,38 @@ We welcome contributions! If you have ideas for improvements:
 
 ## License
 
-This project is licensed under the MIT License - feel free to use it for your own projects! 
+This project is licensed under the MIT License - feel free to use it for your own projects!
+
+## Future Enhancements Under Consideration
+
+1. **Contract Award Integration**:
+   - Integration with government contract databases (e.g., USAspending.gov)
+   - Historical contract award analysis by location
+   - Spending pattern visualization
+
+2. **Extended Data Sources**:
+   - Historical satellite imagery analysis
+   - Public records database integration
+   - Environmental impact report correlation
+   - Patent database geographic analysis
+
+3. **Analysis Tools**:
+   - Temporal analysis of activities by location
+   - Geographic clustering analysis
+   - Network relationship mapping
+   - Data visualization and reporting
+
+4. **Research Collaboration**:
+   - Structured data export for academic analysis
+   - Citation management
+   - Collaborative research notes
+   - Findings documentation system
+
+## Academic Use
+
+When using this tool for research:
+1. **Data Verification**: Always verify findings through multiple sources
+2. **Documentation**: Keep detailed records of search parameters and results
+3. **Ethics**: Ensure compliance with academic research ethics guidelines
+4. **Privacy**: Respect privacy considerations when handling location data
+5. **Citations**: Properly cite all sources in academic publications 

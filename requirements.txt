@@ -1,6 +1,9 @@
-pykml
-geopy
-nltk
+pykml==0.2.0
+geopy==2.4.1
+nltk==3.8.1
 lxml
-google-search-results  # SerpAPI's Python package
-python-dotenv  # For environment variable management 
+google-search-results==2.4.2
+python-dotenv==1.0.0
+requests==2.31.0
+pandas==2.1.4  # For data analysis
+haversine==2.8.0  # For calculating distances between coordinates 

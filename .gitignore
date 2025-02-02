@@ -48,6 +48,7 @@ nltk_data/
 # Cache and API tracking
 api_usage.log
 search_cache.json
+contract_cache.json
 
 # Environment variables
 .env.*.local
