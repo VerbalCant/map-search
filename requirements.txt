@@ -1,6 +1,6 @@
-pykml==0.2.0
-lxml>=4.9.0
-duckduckgo-search>=4.1.1
-geopy>=2.4.1
-nltk>=3.8.1
-python-dotenv>=1.0.0 
+pykml
+geopy
+nltk
+lxml
+google-search-results  # SerpAPI's Python package
+python-dotenv  # For environment variable management 

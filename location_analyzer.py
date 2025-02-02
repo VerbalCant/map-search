@@ -1,7 +1,6 @@
 import os
 import argparse
 from pykml import parser
-from duckduckgo_search import DDGS
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 import nltk
@@ -10,6 +9,18 @@ from nltk.tag import pos_tag
 from typing import Dict, List, Tuple
 import logging
 from lxml import etree
+import time
+from random import uniform
+from serpapi import GoogleSearch
+import json
+from datetime import datetime
+import hashlib
+from dotenv import load_dotenv
+import requests
+
+# Load environment variables from .env.local first, then fall back to .env
+load_dotenv('.env.local')
+load_dotenv('.env')  # This won't override variables that were already loaded
 
 # Set up logging with more detailed format
 logging.basicConfig(
@@ -25,18 +36,35 @@ KML_NS = {
 }
 
 class LocationAnalyzer:
-    def __init__(self, kml_file_path: str, max_places: int = None, debug: bool = False):
+    def __init__(self, kml_file_path: str, max_places: int = None, debug: bool = False, bust_cache: bool = False):
         """Initialize the LocationAnalyzer with a KML file path."""
         self.kml_file_path = kml_file_path
         self.max_places = max_places
         self.debug = debug
+        self.bust_cache = bust_cache
         self.locations = []
         self.geolocator = Nominatim(user_agent="location_analyzer")
+        self.api_key = os.getenv("SERPAPI_KEY")
+        if not self.api_key:
+            raise ValueError("SERPAPI_KEY environment variable not set")
+            
+        # Validate API key before proceeding
+        if not self._validate_api_key():
+            raise ValueError("Invalid SERPAPI_KEY - please check your API key at https://serpapi.com/manage-api-key")
+        
+        self.max_retries = 3
+        self.base_delay = 2  # Base delay in seconds
+        
+        # Set up cache and API tracking files
+        self.cache_file = "search_cache.json"
+        self.api_log_file = "api_usage.log"
+        self.cache = self._load_cache()
         
         if self.debug:
             logger.setLevel(logging.DEBUG)
         
         logger.debug(f"ALAINA: Initializing LocationAnalyzer with file: {kml_file_path}")
+        logger.debug(f"ALAINA: Cache busting enabled: {bust_cache}")
         logger.debug(f"ALAINA: Max places to process: {max_places if max_places else 'All'}")
         
         # Download required NLTK data
@@ -47,6 +75,82 @@ class LocationAnalyzer:
             nltk.download('words')
         except LookupError as e:
             logger.error(f"ALAINA: Error downloading NLTK data: {str(e)}")
+
+    def _validate_api_key(self) -> bool:
+        """Validate the API key by making a test request."""
+        try:
+            logger.info("ALAINA: Validating API key...")
+            url = "https://www.searchapi.io/api/v1/me"
+            headers = {
+                "Accept": "application/json",
+                "Authorization": f"Bearer {self.api_key}"
+            }
+            response = requests.get(url, headers=headers)
+            
+            if response.status_code == 200:
+                logger.info("ALAINA: API key validation successful")
+                return True
+            else:
+                logger.error(f"ALAINA: API key validation failed with status code {response.status_code}")
+                logger.error(f"ALAINA: Response: {response.text}")
+                return False
+                
+        except Exception as e:
+            logger.error(f"ALAINA: API key validation failed with error: {str(e)}")
+            return False
+
+    def _load_cache(self) -> Dict:
+        """Load the search cache from file."""
+        if self.bust_cache:
+            logger.info("ALAINA: Cache busting enabled - starting with empty cache")
+            return {}
+            
+        try:
+            if os.path.exists(self.cache_file):
+                with open(self.cache_file, 'r') as f:
+                    return json.load(f)
+        except Exception as e:
+            logger.error(f"ALAINA: Error loading cache: {str(e)}")
+        return {}
+
+    def _save_cache(self) -> None:
+        """Save the search cache to file."""
+        try:
+            with open(self.cache_file, 'w') as f:
+                json.dump(self.cache, f, indent=2)
+            logger.info("ALAINA: Cache saved successfully")
+        except Exception as e:
+            logger.error(f"ALAINA: Error saving cache: {str(e)}")
+
+    def _log_api_usage(self, query: str, success: bool) -> None:
+        """Log API usage with timestamp and details."""
+        try:
+            timestamp = datetime.now().isoformat()
+            log_entry = {
+                'timestamp': timestamp,
+                'query': query,
+                'success': success,
+                'api_key_last_4': self.api_key[-4:] if self.api_key else 'none'
+            }
+            
+            with open(self.api_log_file, 'a') as f:
+                f.write(json.dumps(log_entry) + '\n')
+                
+            logger.info(f"ALAINA: API call logged - Success: {success}")
+        except Exception as e:
+            logger.error(f"ALAINA: Error logging API usage: {str(e)}")
+
+    def _generate_cache_key(self, query: str, location: Dict) -> str:
+        """Generate a unique cache key for a search query."""
+        # Include location coordinates in cache key if available
+        coords_str = ''
+        if location.get('coordinates'):
+            coords = location['coordinates']
+            coords_str = f"_{coords['lat']}_{coords['lon']}"
+            
+        # Create a unique key based on query and coordinates
+        key_string = f"{query}{coords_str}"
+        return hashlib.md5(key_string.encode()).hexdigest()
 
     def parse_kml(self) -> None:
         """Parse the KML file and extract location information."""
@@ -221,61 +325,144 @@ class LocationAnalyzer:
             logger.warning(f"ALAINA: Geocoding timed out for term: {term}")
             return False
 
+    def _generate_search_queries(self, location: Dict) -> List[str]:
+        """Generate a single optimized search query for the location."""
+        name = location['name']
+        queries = []
+        
+        # Split the name into parts and use meaningful words
+        words = [w for w in name.split() if len(w) > 2 and w.lower() not in ['the', 'and', 'test', 'model', 'city']]
+        
+        # Create a query focusing on the location name
+        if words:
+            # Use the first two meaningful words if available
+            if len(words) >= 2:
+                main_query = f"{words[0]} {words[1]}"
+            else:
+                main_query = words[0]
+        else:
+            main_query = name
+            
+        # Add Nevada context since we know it's in Clark County, Nevada
+        main_query += " Nevada"
+            
+        queries.append(main_query)
+        logger.info(f"ALAINA: Generated search query: {main_query}")
+        return queries
+
+    def _search_with_retry(self, query: str, location: Dict, max_results: int) -> List[Dict]:
+        """Execute a search with retry logic and caching."""
+        cache_key = self._generate_cache_key(query, location)
+        
+        # Check cache first
+        if not self.bust_cache and cache_key in self.cache:
+            logger.info("ALAINA: Using cached results for query")
+            return self.cache[cache_key]
+
+        for attempt in range(self.max_retries):
+            try:
+                logger.info(f"ALAINA: Executing search query: {query} (attempt {attempt + 1}/{self.max_retries})")
+                
+                # Build search parameters
+                url = "https://www.searchapi.io/api/v1/search"
+                headers = {
+                    "Accept": "application/json",
+                    "Authorization": f"Bearer {self.api_key}"
+                }
+                params = {
+                    "engine": "google",
+                    "q": query,
+                    "num": max_results,
+                    "gl": "us",
+                    "hl": "en"
+                }
+                
+                # Add location biasing if coordinates are available
+                if location.get('coordinates'):
+                    coords = location['coordinates']
+                    # Try to get a location name for these coordinates
+                    try:
+                        location_name = self.geolocator.reverse((coords['lat'], coords['lon']))
+                        if location_name:
+                            params.update({
+                                "location": str(location_name),
+                                "google_domain": "google.com"
+                            })
+                            logger.info(f"ALAINA: Using location: {location_name}")
+                    except Exception as e:
+                        logger.warning(f"ALAINA: Could not reverse geocode coordinates: {str(e)}")
+                        # Fallback to using Clark County, Nevada
+                        params.update({
+                            "location": "Clark County, Nevada, United States",
+                            "google_domain": "google.com"
+                        })
+                        logger.info("ALAINA: Using fallback location: Clark County, Nevada")
+                
+                response = requests.get(url, headers=headers, params=params)
+                
+                if response.status_code != 200:
+                    raise Exception(f"Search API returned status code {response.status_code}: {response.text}")
+                
+                results = response.json()
+                
+                # Debug raw response
+                logger.debug(f"ALAINA: Raw API response: {json.dumps(results, indent=2)}")
+                
+                # Extract and format organic results
+                formatted_results = []
+                for result in results.get("organic_results", []):
+                    formatted_results.append({
+                        'title': result.get('title', ''),
+                        'link': result.get('link', ''),
+                        'body': result.get('snippet', '')
+                    })
+                
+                # Cache successful results
+                self.cache[cache_key] = formatted_results
+                self._save_cache()
+                
+                # Log successful API call
+                self._log_api_usage(query, True)
+                
+                return formatted_results
+                
+            except Exception as e:
+                logger.error(f"ALAINA: Error during search for {query}: {str(e)}")
+                # Log failed API call
+                self._log_api_usage(query, False)
+                
+                if "quota" in str(e).lower():
+                    logger.error("ALAINA: SerpAPI quota exceeded")
+                    return []
+                
+                delay = self.base_delay * (2 ** attempt)
+                logger.warning(f"ALAINA: Search failed, waiting {delay} seconds before retry")
+                time.sleep(delay)
+                continue
+        
+        logger.error(f"ALAINA: Max retries reached for query: {query}")
+        return []
+
     def search_location_context(self, max_results: int = 5) -> List[Dict]:
-        """Search the internet for relevant information about each location."""
+        """Search for relevant information about each location."""
         search_results = []
         
         for location in self.locations:
             logger.info(f"ALAINA: Searching for information about {location['name']}")
             
-            # Construct search queries based on context
+            # Generate single optimized query
             queries = self._generate_search_queries(location)
-            logger.debug(f"ALAINA: Generated queries: {queries}")
-            location_results = []
+            logger.debug(f"ALAINA: Generated query: {queries[0]}")
             
-            with DDGS() as ddgs:
-                for query in queries:
-                    try:
-                        logger.debug(f"ALAINA: Executing search query: {query}")
-                        results = list(ddgs.text(query, max_results=max_results))
-                        location_results.extend(results)
-                    except Exception as e:
-                        logger.error(f"ALAINA: Error during search for {query}: {str(e)}")
-                        continue
+            # Single search with location biasing
+            results = self._search_with_retry(queries[0], location, max_results)
             
             search_results.append({
                 'location': location['name'],
-                'results': location_results
+                'results': results[:max_results]
             })
         
         return search_results
-
-    def _generate_search_queries(self, location: Dict) -> List[str]:
-        """Generate relevant search queries based on location context."""
-        queries = []
-        
-        # Basic location query
-        queries.append(f"{location['name']} location history")
-        
-        # Add organization-specific queries
-        for org in location['context']['organizations']:
-            queries.append(f"{org} {location['name']} development")
-        
-        # Add location-specific queries
-        for loc in location['context']['locations']:
-            queries.append(f"{loc} {location['name']} news")
-        
-        # Add key terms queries
-        key_terms = ' '.join(location['context']['key_terms'][:3])  # Use top 3 key terms
-        if key_terms:
-            queries.append(f"{location['name']} {key_terms}")
-        
-        # Add coordinates-based query if available
-        if location['coordinates']:
-            coords = location['coordinates']
-            queries.append(f"location near {coords['lat']},{coords['lon']}")
-        
-        return queries
 
 def main():
     """Main function to demonstrate usage."""
@@ -288,11 +475,13 @@ def main():
                       help='Enable debug logging')
     parser.add_argument('--max-results', type=int, default=5,
                       help='Maximum number of search results per query (default: 5)')
+    parser.add_argument('--bust-cache', action='store_true',
+                      help='Ignore existing cache and fetch fresh results')
     
     args = parser.parse_args()
     
     try:
-        analyzer = LocationAnalyzer(args.kml_file, args.max_places, args.debug)
+        analyzer = LocationAnalyzer(args.kml_file, args.max_places, args.debug, args.bust_cache)
         analyzer.parse_kml()
         
         # Search for information about each location
@@ -301,11 +490,16 @@ def main():
         # Print results
         for location_result in results:
             logger.info(f"ALAINA: Results for {location_result['location']}:")
+            if not location_result['results']:
+                logger.info("ALAINA: No results found")
+                continue
+                
             for idx, result in enumerate(location_result['results'], 1):
                 logger.info(f"ALAINA: Result {idx}:")
                 logger.info(f"ALAINA: Title: {result.get('title', 'N/A')}")
                 logger.info(f"ALAINA: Link: {result.get('link', 'N/A')}")
-                logger.info(f"ALAINA: Snippet: {result.get('body', 'N/A')}\n")
+                logger.info(f"ALAINA: Snippet: {result.get('body', 'N/A')}")
+                logger.info("ALAINA: ----------------------")
 
     except Exception as e:
         logger.error(f"ALAINA: An error occurred: {str(e)}")
