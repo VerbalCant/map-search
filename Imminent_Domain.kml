@@ -1,0 +1,5606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1N1vZOvDEYZQSE-yVIi4AZodDkGhodivi">
+	<name>Imminent Domain</name>
+	<gx:CascadingStyle kml:id="__managed_style_27D7D9E3382C9EAF18E1">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=26a69a&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>5.9997</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_151A8964B62C9EAF18E1">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=26a69a&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.9998</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2901160BA42C9EAF18DF">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>5.9997</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0281E258BB2C9EAF18E1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_151A8964B62C9EAF18E1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_27D7D9E3382C9EAF18E1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_17C720CA2D2C9EAF18DF">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.9998</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_031E38F9302C9EAF18DF">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_17C720CA2D2C9EAF18DF</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2901160BA42C9EAF18DF</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2425329B7B2C9EAF18DE">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>5.9997</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_157DCFC8882C9EAF18DE">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.9998</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_558664783B2C9EAF18DC">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>5.9997</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_03CD586E572C9EAF18DE">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_157DCFC8882C9EAF18DE</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2425329B7B2C9EAF18DE</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_327C39B0902C9EAF18DC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_4405AD7BBC2C9EAF18DC</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_558664783B2C9EAF18DC</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_249154E89C2C9EAF18DC">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>5.9997</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_4405AD7BBC2C9EAF18DC">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.9998</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1DE21E47192C9EAF18DC">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.9998</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_076D4D7D1A2C9EAF18DC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1DE21E47192C9EAF18DC</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_249154E89C2C9EAF18DC</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="08B82DB5982C3F78633D">
+		<name>Dog Bone Lake model test city</name>
+		<gx:mid>/g/11r1hlzrwy</gx:mid>
+		<gx:fid>0x80c86d74d961a1eb:0xd47fc63cd5d4bdd8</gx:fid>
+		<LookAt>
+			<longitude>-115.4435011</longitude>
+			<latitude>36.781123</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>826.0198597780451</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-115.4435011,36.781123,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0542AFE7D22C3F793866">
+		<name>Pintwater Range</name>
+		<gx:mid>/m/04zy0rc</gx:mid>
+		<gx:fid>0x80c80f54003cf9cd:0x91fb51df363e6711</gx:fid>
+		<LookAt>
+			<longitude>-115.5622443</longitude>
+			<latitude>36.94051465</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4267.482896242465</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-115.5622443,36.9405152,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="057CF16E692C3F83B474">
+		<name>Sugar Bunker</name>
+		<gx:mid>/m/04bbclf</gx:mid>
+		<gx:fid>0x80c7edef1923616d:0x206855feb5930378</gx:fid>
+		<LookAt>
+			<longitude>-115.9611418</longitude>
+			<latitude>36.83939804999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4274.857496349185</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-115.9611418,36.8393986,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0880FE33172C3F84F697">
+		<name>Air Strip</name>
+		<LookAt>
+			<longitude>-116.0001488702281</longitude>
+			<latitude>36.93178576970531</latitude>
+			<altitude>1205.398768132917</altitude>
+			<heading>204.0248521178954</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>6055.620284925099</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-116.0079812967403,36.92831621316682,1199.174671364774</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0514F4EA5E2C3F9261DE">
+		<name>Marker 1</name>
+		<LookAt>
+			<longitude>-115.4705302246219</longitude>
+			<latitude>36.9477570958167</latitude>
+			<altitude>1049.218406649341</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>264.8020562342208</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.4697607863746,36.94775888089181,1049.7461371231</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="082C3C8F482C3F92D26E">
+		<name>Marker 2</name>
+		<LookAt>
+			<longitude>-115.4834764011212</longitude>
+			<latitude>36.94989440025046</latitude>
+			<altitude>1093.457549188753</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>431.6563656124345</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.483500643084,36.94979656360427,1094.797623762053</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="067FE35BD02C3F93C419">
+		<name>Marker 3</name>
+		<LookAt>
+			<longitude>-115.5101352864388</longitude>
+			<latitude>36.95079754835836</latitude>
+			<altitude>1230.508053070467</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>868.290352463373</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.5101791855324,36.95094372322806,1231.890466225112</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="000B5AB0B72C3F9543F3">
+		<name>Hall Marker</name>
+		<LookAt>
+			<longitude>-115.5485654188128</longitude>
+			<latitude>36.94247787978507</latitude>
+			<altitude>1480.900866379494</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>276.9893478847735</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.5485223872947,36.94275877809211,1484.916297252974</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0444BADDCC2C3F967654">
+		<name>Marker 5 Indian Canyon</name>
+		<LookAt>
+			<longitude>-115.5319436835187</longitude>
+			<latitude>36.94063732373544</latitude>
+			<altitude>1391.431252727532</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>6801.664190691663</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.5233120149776,36.94866430056395,1304.062950555249</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03FAF8438E2C3FA35764">
+		<name>Hall Marker 2</name>
+		<LookAt>
+			<longitude>-115.8342735400263</longitude>
+			<latitude>37.20035478305529</latitude>
+			<altitude>1577.067822623007</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>613.5791508400143</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.8332319111983,37.20030846657168,1567.55903286518</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0ECC8568E92C3FA5F6F1">
+		<name>Emigrant Valley Marker</name>
+		<LookAt>
+			<longitude>-115.8188932601929</longitude>
+			<latitude>37.2658954391824</latitude>
+			<altitude>1347.418132576094</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>877.9968529440521</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.8168959505923,37.26569623771378,1348.321741000382</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="041E617D6A2C3FB7349D">
+		<name>Peanut Island Shelter</name>
+		<gx:mid>/g/11smcmbc35</gx:mid>
+		<gx:fid>0x88d8d5622d7134b1:0x8536a146e502af4c</gx:fid>
+		<LookAt>
+			<longitude>-80.0448854</longitude>
+			<latitude>26.7719093</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>931.166246608607</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-80.0448854,26.7719093,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="027C4660D62C3FBC13A9">
+		<name>Wasatch Range</name>
+		<gx:mid>/m/01yrq9</gx:mid>
+		<gx:fid>0x874c5355a204b6e3:0x7e8533880d5b85b2</gx:fid>
+		<LookAt>
+			<longitude>-111.4678848</longitude>
+			<latitude>40.9587161</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1123566.624300297</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-111.5116469,41.2816391,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="051552DCA82C4015C2CA">
+		<name>NNSA Marker A</name>
+		<LookAt>
+			<longitude>-116.005345166848</longitude>
+			<latitude>37.20932366349351</latitude>
+			<altitude>1482.555094396475</altitude>
+			<heading>26.03699162195387</heading>
+			<tilt>2.539728949127923</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>27460.69215194788</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-116.0396912811483,37.20774464631342,1401.19961071922</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06053AA7182C402C054D">
+		<name>999 S Sepulveda Blvd</name>
+		<gx:mid>/g/11c25wrmjm</gx:mid>
+		<gx:fid>0x80c2b1344fbafd61:0x91a2460c6192fcc6</gx:fid>
+		<LookAt>
+			<longitude>-118.3967212</longitude>
+			<latitude>33.9303301</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>858.7354160941584</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-118.3967212,33.9303301,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0494378DCA2C402EF68A">
+		<name>Catalina Marker</name>
+		<LookAt>
+			<longitude>-118.518759999912</longitude>
+			<latitude>33.4376896050996</latitude>
+			<altitude>216.7933845691127</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1293.863061795855</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-118.5176199512961,33.43901489375025,178.2966245608813</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05FF29F5DC2C4043D2F8">
+		<name>Greer BS Marker</name>
+		<LookAt>
+			<longitude>-111.9298707611906</longitude>
+			<latitude>34.91185695510041</latitude>
+			<altitude>1378.73004997775</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1104.774736305408</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-111.9284847573954,34.91126880571099,1379.611292132714</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D5EADAB2C2C404661DE">
+		<name>Atlantic Undersea Test and Evaluation Center</name>
+		<gx:mid>/m/0h6f63</gx:mid>
+		<gx:fid>0x892f373f134e59cf:0xc1d8570a82058df1</gx:fid>
+		<LookAt>
+			<longitude>-77.76955599999999</longitude>
+			<latitude>24.7054337</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>949.3031085849306</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.76955599999999,24.7054337,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="068C9B42D62C40493154">
+		<name>McLean</name>
+		<gx:mid>/m/010m55</gx:mid>
+		<gx:fid>0x89b635ecb18a793b:0x8e62ba5eadfaeaf1</gx:fid>
+		<LookAt>
+			<longitude>-77.1763989</longitude>
+			<latitude>38.931772</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>18083.73108817276</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.17726039999999,38.9338676,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B11162BB72C404AB639">
+		<name>SEAT 1</name>
+		<LookAt>
+			<longitude>-61.2662018392259</longitude>
+			<latitude>35.10997873618302</latitude>
+			<altitude>24.91035576696963</altitude>
+			<heading>3.12765855390305e-11</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>787701.1437906325</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-60.95440853971668,35.22101702123159,-62.95966032730269</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00E95174142C404C5E61">
+		<name>SEAT 2</name>
+		<LookAt>
+			<longitude>-65.94225740698991</longitude>
+			<latitude>18.28373796325823</latitude>
+			<altitude>325.8135134935481</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>983707.0511358976</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-66.31332999892396,19.57357132801975,116.9042469685399</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AAD5D50862C40507D6E">
+		<name>White Sands Missile Range</name>
+		<gx:mid>/g/12hyy7_y7</gx:mid>
+		<gx:fid>0x86e0713f80d84a37:0x8837b44ee2b32893</gx:fid>
+		<LookAt>
+			<longitude>-106.4196598</longitude>
+			<latitude>32.9438955</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4548.686290352842</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-106.4196598,32.943896,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="065EA9EAC62C40554FE8">
+		<name>Los Alamos National Laboratory</name>
+		<gx:mid>/g/1vfzfm90</gx:mid>
+		<gx:fid>0x86e379b837c7a337:0xccc06e29cc19c269</gx:fid>
+		<LookAt>
+			<longitude>-104.2266325</longitude>
+			<latitude>32.4212678</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>875.1924345400989</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-104.2265335,32.421266,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07D446C2E72C4056438D">
+		<name>Lawrence Livermore National Laboratory</name>
+		<gx:mid>/g/1tj8527l</gx:mid>
+		<gx:fid>0x808fde1cf96c9a41:0xf7e280030f00ed38</gx:fid>
+		<LookAt>
+			<longitude>-121.7058752</longitude>
+			<latitude>37.6869634</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>815.1952928516183</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-121.7058752,37.6869634,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01CA5FFC422C405B855B">
+		<name>Dugway Proving Ground - Visitor Control</name>
+		<gx:mid>/g/11pyshpzgr</gx:mid>
+		<gx:fid>0x80b2a9c5b9c0c231:0x844ab7148c91ee65</gx:fid>
+		<LookAt>
+			<longitude>-112.7277527</longitude>
+			<latitude>40.2290333</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>783.7640555091443</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-112.7277162,40.2290094,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09191D07682C406025C7">
+		<name>SEAT 3</name>
+		<LookAt>
+			<longitude>-112.7768187909765</longitude>
+			<latitude>40.30089024997277</latitude>
+			<altitude>1461.55321719458</altitude>
+			<heading>-4.38138996706859e-08</heading>
+			<tilt>0.0673713242923336</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>998.2042271595856</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-112.7743345386256,40.30074880628872,1461.48261291451</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="044C7C5CF22C4092F8D1">
+		<name>SEAT 4</name>
+		<LookAt>
+			<longitude>-60.9594165797161</longitude>
+			<latitude>-63.04930582722773</latitude>
+			<altitude>-0.1885371747623843</altitude>
+			<heading>298.5284195645068</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>328.8984556732976</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-60.95895693426336,-63.04901190791129,-0.1887881880532859</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04B0BA17012C41071C76">
+		<name>61°22&apos;36.0&quot;N 18°26&apos;54.0&quot;E</name>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>18.4483333,61.37666669999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00735E03E52C4116EB76">
+		<name>Hill Air Force Base</name>
+		<gx:mid>/g/11bc6hlcwf</gx:mid>
+		<gx:fid>0x87530449f00864d5:0x1419b965865a014</gx:fid>
+		<LookAt>
+			<longitude>-111.9842205</longitude>
+			<latitude>41.134977</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>17508.76598258106</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-111.9939817,41.1321102,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DAA0B99182C41178694">
+		<name>Sandia National Laboratories</name>
+		<gx:mid>/g/1tdkbjlz</gx:mid>
+		<gx:fid>0x8718a79a7d0c6a43:0xccb8a1509784df9d</gx:fid>
+		<LookAt>
+			<longitude>-106.5349498</longitude>
+			<latitude>35.06062310000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>846.0141414439169</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-106.5349498,35.0606231,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09CA5A5D472C411BA503">
+		<name>POI 1A</name>
+		<LookAt>
+			<longitude>-115.6643923461546</longitude>
+			<latitude>37.35447710117484</latitude>
+			<altitude>1650.803659068634</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999703465463</gx:fovy>
+			<range>15472.75418564212</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.6570007713939,37.34390852021612,1672.737023154797</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C692277D02C411DEF60">
+		<name>Warren Air Force Base</name>
+		<gx:mid>/g/11bc5sy9bf</gx:mid>
+		<gx:fid>0x876f30891b24a1ff:0x1daf3293489259f2</gx:fid>
+		<LookAt>
+			<longitude>-104.86270495</longitude>
+			<latitude>41.15090195000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>8752.257404806962</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-104.8629746,41.1446846,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03E9145E522C4123676A">
+		<name>POI 1B</name>
+		<LookAt>
+			<longitude>-104.9728614095717</longitude>
+			<latitude>41.37408579832941</latitude>
+			<altitude>2003.564797454844</altitude>
+			<heading>7.794961452203818e-08</heading>
+			<tilt>0.1855614756013902</tilt>
+			<gx:fovy>34.99999999900835</gx:fovy>
+			<range>3270.587708082749</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-104.9709467426733,41.37863691793557,2005.776435318372</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01DF3FF0DA2C4127A1E4">
+		<name>Backyard</name>
+		<LookAt>
+			<longitude>-104.9645948777461</longitude>
+			<latitude>41.37885683142658</latitude>
+			<altitude>1997.549909488489</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999900835</gx:fovy>
+			<range>11110.67806831095</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<LineString>
+			<coordinates>
+				-104.9363955511806,41.38710733489136,0 -104.9667953967672,41.37863234677426,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0511DDE38B2C41316B5B">
+		<name>POI 3</name>
+		<LookAt>
+			<longitude>-104.9714025296843</longitude>
+			<latitude>41.54530584056858</latitude>
+			<altitude>1871.222380968128</altitude>
+			<heading>2.040559307397275</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999900835</gx:fovy>
+			<range>137.687108436694</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-104.9714592570519,41.54517271974018,1873.470353854729</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07A441AE182C41344400">
+		<name>POI 4</name>
+		<LookAt>
+			<longitude>-104.9635694134544</longitude>
+			<latitude>41.56673777445069</latitude>
+			<altitude>1851.939518113377</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999900835</gx:fovy>
+			<range>158.1655372854221</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-104.9635961911739,41.56670236437717,1854.060012644123</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07D29CC4BA2C414EA4F9">
+		<name>Saylor Creek Range SCR</name>
+		<gx:mid>/g/11k744h3hc</gx:mid>
+		<gx:fid>0x54adaff2675e967f:0xa586e7dc83b56b5a</gx:fid>
+		<LookAt>
+			<longitude>-115.6092115</longitude>
+			<latitude>42.7240157</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>751.4754429903519</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-115.6092115,42.7240157,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EF0A6F93C2C415F1D45">
+		<name>Astronaut</name>
+		<gx:mid>/g/1tjt2_tc</gx:mid>
+		<gx:fid>0x9116a5ec123ed507:0x9e0caffd1edd2268</gx:fid>
+		<LookAt>
+			<longitude>-75.07980999999999</longitude>
+			<latitude>-14.7452521</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1017.713283621496</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-75.07980999999999,-14.7452521,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0117D567592C41642909">
+		<name>SEAT 6</name>
+		<LookAt>
+			<longitude>-69.63341008880271</longitude>
+			<latitude>-19.94946840370067</latitude>
+			<altitude>1246.004464834794</altitude>
+			<heading>55.80151847385113</heading>
+			<tilt>30.55579707976246</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>330.8312125063094</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-69.63335063032731,-19.94915793274215,1247.824354695018</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="030A08700D2C4165AFAA">
+		<name>SEAT 7</name>
+		<LookAt>
+			<longitude>-69.61523001574687</longitude>
+			<latitude>-19.94632532158406</latitude>
+			<altitude>1253.097658264013</altitude>
+			<heading>55.79491705791735</heading>
+			<tilt>30.5578563261673</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>781.3501574505062</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-69.61615306198368,-19.94581130725163,1254.19448844191</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="049D7AB16C2C4167CB70">
+		<name>Rings</name>
+		<LookAt>
+			<longitude>-69.61870578882721</longitude>
+			<latitude>-19.94499899949596</latitude>
+			<altitude>1246.762639822651</altitude>
+			<heading>55.79559122333401</heading>
+			<tilt>30.55689243781761</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>570.4717364083626</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-69.61911627542771,-19.9447101738243,1247.231620237749</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="041E2AAF542C4169CD91">
+		<name>Rings 2</name>
+		<LookAt>
+			<longitude>-69.62173947331453</longitude>
+			<latitude>-19.94344037734357</latitude>
+			<altitude>1243.249954465296</altitude>
+			<heading>55.79662605589596</heading>
+			<tilt>30.55691108483897</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>574.550993895682</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-69.62128266627221,-19.94394268146529,1244.365717558517</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="080239ED7E2C42B5CE9F">
+		<name>Johnston Island</name>
+		<gx:mid>/m/03__f</gx:mid>
+		<gx:fid>0x7b756673ae736635:0x23047b3cd6523f5</gx:fid>
+		<LookAt>
+			<longitude>-169.5335385</longitude>
+			<latitude>16.72895535</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5420.77808351696</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-169.5336477,16.7295035,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08C40581652C42BD4820">
+		<name>ID9</name>
+		<LookAt>
+			<longitude>-140.1344210045165</longitude>
+			<latitude>-15.98434167447222</latitude>
+			<altitude>-2.966435632691597</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>15287.22955511883</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-140.1322222699176,-15.98487276113217,-2.979739654743113</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08F5CF0E1D2C42BF37A2">
+		<name>ID9.1</name>
+		<LookAt>
+			<longitude>-109.402937228199</longitude>
+			<latitude>-27.13650071922025</latitude>
+			<altitude>99.23675829448754</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>8904.933059569448</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-109.4057421479442,-27.12649076303503,170.5694566491603</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D7994969E2C42C0D9CB">
+		<name>ID9.3</name>
+		<LookAt>
+			<longitude>-178.3398564664014</longitude>
+			<latitude>28.43539938497683</latitude>
+			<altitude>5.830458050630689</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>28347.12518750691</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-178.3255283993405,28.41980611178969,5.671952324487284</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0920045FCB2C442C655C">
+		<name>USAF Bombing Range</name>
+		<LookAt>
+			<longitude>-113.1674567211776</longitude>
+			<latitude>40.96603143142399</latitude>
+			<altitude>1287.494881770793</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>10275.04662213265</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-113.3013365452952,40.97494869718454,1293.25689290847</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01B9E9AB9D2C443C171F">
+		<name>SAT Glitch 1</name>
+		<LookAt>
+			<longitude>-114.4987346107683</longitude>
+			<latitude>41.68316426735763</latitude>
+			<altitude>2213.248382805344</altitude>
+			<heading>-14.70445706047523</heading>
+			<tilt>18.43257725984012</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>0.1</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-114.4988332383801,41.68414300618988,1945.26395114795</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03D62D59462C4443A624">
+		<name>Unknown Monastery Near Kangyaodong</name>
+		<LookAt>
+			<longitude>108.6931823675204</longitude>
+			<latitude>27.91019071400881</latitude>
+			<altitude>2227.701437050506</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>903.401077919116</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>108.6929342277289,27.91062328579942,2245.395990938998</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00E70B62242C4460DAE8">
+		<name>Tonapah</name>
+		<LookAt>
+			<longitude>-117.1051636882544</longitude>
+			<latitude>38.1680445189331</latitude>
+			<altitude>1731.116638588894</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1414.510439557635</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-117.1060059364884,38.16685341120986,1734.246844445698</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A0EDB15AB2C446685D6">
+		<name>Tonopah Test Range, Aircraft Landing</name>
+		<gx:mid>/g/11k0qnfjsz</gx:mid>
+		<gx:fid>0x80b96b760a4c7af5:0xe1f21695cb5efc0a</gx:fid>
+		<LookAt>
+			<longitude>-116.7302242</longitude>
+			<latitude>37.84349359999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>813.3044213070485</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-116.7302242,37.8434936,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06661E272F2C4496C42C">
+		<name>Papoose Lake</name>
+		<gx:mid>/m/05_5p27</gx:mid>
+		<gx:fid>0x80b806189d73c583:0x23f9fc33172bf1e5</gx:fid>
+		<LookAt>
+			<longitude>-115.8487649</longitude>
+			<latitude>37.10284965</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>9270.373455657133</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-115.8492189,37.1023384,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F595C192E2C44DD5D34">
+		<name>EG&amp;G (Now Amentum)</name>
+		<gx:mid>/g/1tfrh0z9</gx:mid>
+		<gx:fid>0x80c8c5808feed0e3:0x48d23b06e0f7bd90</gx:fid>
+		<LookAt>
+			<longitude>-115.145861</longitude>
+			<latitude>36.0696009</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>834.3794774283119</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03CD586E572C9EAF18DE</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-115.145989,36.0696316,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00DB13D7232C44DEF37F">
+		<name>Nevada Test Site Area 400</name>
+		<gx:mid>/g/1w0h_wy_</gx:mid>
+		<gx:fid>0x80c784f8347ba2db:0x3691b8939ce46e73</gx:fid>
+		<LookAt>
+			<longitude>-116.2883782</longitude>
+			<latitude>36.81384104999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4276.719383151806</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-116.2883782,36.8138416,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="099DFC1A6A2C44E17081">
+		<name>Pelona Mountain</name>
+		<gx:mid>/g/1tkkvb81</gx:mid>
+		<gx:fid>0x8727327a6b5997d9:0x68e4df5ecddb306f</gx:fid>
+		<LookAt>
+			<longitude>-108.1061633</longitude>
+			<latitude>33.6764483</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4498.787375170462</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-108.1061633,33.6764488,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F870309E82C44E2C7FF">
+		<name>SW CORONA SEAT</name>
+		<description><![CDATA[<div>PSYOP/COUNTERINT</div>]]></description>
+		<LookAt>
+			<longitude>-105.6323596400724</longitude>
+			<latitude>34.18848230782678</latitude>
+			<altitude>2043.12903188587</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>358.7883805180537</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_031E38F9302C9EAF18DF</styleUrl>
+		<Point>
+			<coordinates>-105.6322991944483,34.18876103147237,2043.164982067537</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02EB948F512C44F33EDD">
+		<name>Voronezh</name>
+		<gx:mid>/m/02c_fv</gx:mid>
+		<gx:fid>0x413b2f5ce874e813:0x48d94c0efba762bd</gx:fid>
+		<LookAt>
+			<longitude>39.33316185</longitude>
+			<latitude>51.6998365</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>115264.508683339</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>39.1919288,51.6683487,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0802B635202C44F7F162">
+		<name>Rendlesham Forest UFO Landing</name>
+		<gx:mid>/g/11c1s2w3g7</gx:mid>
+		<gx:fid>0x47d983fbac5139e5:0x45875e969ebc5fc4</gx:fid>
+		<LookAt>
+			<longitude>1.4488213</longitude>
+			<latitude>52.0899673</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>619.1571889522797</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>1.4488213,52.0899673,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D0C06E69F2C44F8CA44">
+		<name>2nd UFO with Three Entities</name>
+		<gx:mid>/g/11f5h7rv_h</gx:mid>
+		<gx:fid>0x47d983fb5237f86f:0x22db1b2b13829708</gx:fid>
+		<LookAt>
+			<longitude>1.4512395</longitude>
+			<latitude>52.08706919999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>619.2005090564408</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>1.4512395,52.08706919999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06AC2DB1DB2C44F95974">
+		<name>POI Misc.</name>
+		<LookAt>
+			<longitude>1.452649214925179</longitude>
+			<latitude>52.0850925334407</latitude>
+			<altitude>19.11395057662897</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>424.8832221067278</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>1.453042717508937,52.08503239507926,18.96285159858397</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="053A89A4FE2C44FC54DF">
+		<name>Four Corners Monument</name>
+		<gx:mid>/m/0cqd1</gx:mid>
+		<gx:fid>0x873a25d2c9c70acd:0xc9945bd27b66993a</gx:fid>
+		<LookAt>
+			<longitude>-109.045172</longitude>
+			<latitude>36.9989762</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>823.4350501269535</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-109.045172,36.9989762,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00357AC4C42C44FF7497">
+		<name>G4S Secure Solutions USA</name>
+		<gx:mid>/g/12618176j</gx:mid>
+		<gx:fid>0x87134f1802d954a3:0x496692d7d504133a</gx:fid>
+		<LookAt>
+			<longitude>-104.8113532</longitude>
+			<latitude>38.93524120000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>799.9519878222969</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-104.8113532,38.9352412,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BF8E42B6B2C45064722">
+		<name>Los Alamos National Laboratory</name>
+		<gx:mid>/m/09htk</gx:mid>
+		<gx:fid>0x87181246af22e765:0x7f5a90170c5df1b4</gx:fid>
+		<LookAt>
+			<longitude>-106.3201361</longitude>
+			<latitude>35.8775628</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>836.6138830910741</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-106.3201361,35.8775628,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FBDCF41512C450D5412">
+		<name>Holloman Air Force Base</name>
+		<gx:mid>/m/0459ww</gx:mid>
+		<gx:fid>0x86e05c343376eabd:0xaed4091d6eaea12f</gx:fid>
+		<LookAt>
+			<longitude>-106.10162555</longitude>
+			<latitude>32.84304945</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>19531.19578950891</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-106.099291,32.8440404,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03624964312C45185F18">
+		<name>Norton Air Force Base Museum</name>
+		<gx:mid>/g/11bw46vm0r</gx:mid>
+		<gx:fid>0x80dcab4c97a7fb4b:0xc0461b339d98e520</gx:fid>
+		<LookAt>
+			<longitude>-117.2507635</longitude>
+			<latitude>34.1037577</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>856.805238127737</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-117.2507635,34.1037577,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0885A613552C451C1661">
+		<name>Logan-Cache Airport</name>
+		<gx:mid>/m/07my_6</gx:mid>
+		<gx:fid>0x87547d602798742f:0x6482e778cb4ea9c7</gx:fid>
+		<LookAt>
+			<longitude>-111.8548043</longitude>
+			<latitude>41.7826598</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>763.8195862241462</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-111.8548043,41.7826598,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0094991AA42C451CE7E6">
+		<name>GAPA Launch Site</name>
+		<gx:mid>/g/11h5l5vd13</gx:mid>
+		<gx:fid>0x80acfd08aff1bb37:0xd3400300f8e4a4bc</gx:fid>
+		<LookAt>
+			<longitude>-113.2018392</longitude>
+			<latitude>40.8282089</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>776.1365078858479</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-113.2018392,40.8282089,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C73E470362C451E4F0F">
+		<name>McDonnell Douglas Engineering Auditorium</name>
+		<gx:mid>/g/11clzk6h1z</gx:mid>
+		<gx:fid>0x80dcde0f9a7a1c93:0x371fda1fe4546eba</gx:fid>
+		<LookAt>
+			<longitude>-117.8406433</longitude>
+			<latitude>33.643817</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>861.9067744763793</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-117.8406433,33.643817,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A374B79B12C4535E221">
+		<name>Triad Management LLC</name>
+		<gx:mid>/g/1tvq50x_</gx:mid>
+		<gx:fid>0x89c25ed99a01486b:0xfb03e11a24687849</gx:fid>
+		<LookAt>
+			<longitude>-73.9220024</longitude>
+			<latitude>40.74239279999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>777.2339503207235</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-73.9218958,40.74238039999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E4943FD5F2C4536F178">
+		<name>Groom Lake</name>
+		<gx:mid>/m/05fc461</gx:mid>
+		<gx:fid>0x80b81bcbbbfe72db:0x4a91edd68dd199d0</gx:fid>
+		<LookAt>
+			<longitude>-115.8008166</longitude>
+			<latitude>37.27461145</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>18498.62327041769</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-115.798936,37.2766745,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="099A6A11762C453B07E5">
+		<name>33°57&apos;01.1&quot;N 105°18&apos;50.0&quot;W</name>
+		<description><![CDATA[<div>RCS *Purported, subject to TPHG Effect*</div>]]></description>
+		<styleUrl>#__managed_style_031E38F9302C9EAF18DF</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-105.313893,33.950312,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0814A82D792C45424F25">
+		<name>RSCN POI</name>
+		<LookAt>
+			<longitude>-105.3358333401756</longitude>
+			<latitude>33.92286117101341</latitude>
+			<altitude>1778.220433502616</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1808.581639206678</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-105.3309830568232,33.92058408462115,1775.115348775667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0610EB79A42C454CC5FA">
+		<name>China Lake</name>
+		<LookAt>
+			<longitude>-117.7020120223484</longitude>
+			<latitude>35.68022829623175</latitude>
+			<altitude>693.9313048687973</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>7187.138447896577</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-117.6911170165428,35.68587263120561,681.5829078558509</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A06E9F9FE2C45FBEE53">
+		<name>QABA</name>
+		<LookAt>
+			<longitude>-116.1420326555608</longitude>
+			<latitude>36.82986925545467</latitude>
+			<altitude>1339.273439144946</altitude>
+			<heading>-3.767690063899229</heading>
+			<tilt>0.5435064966500992</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>378.3278848167174</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-116.1413257300444,36.82950357331216,1337.298598767867</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="039B1E936B2C45FE8FAE">
+		<name>Desert Research Experimental Station</name>
+		<gx:mid>/g/11csp88xcq</gx:mid>
+		<gx:fid>0x80b46de4fedd5f7d:0xd4c5dff6efee228d</gx:fid>
+		<LookAt>
+			<longitude>-113.7498463</longitude>
+			<latitude>38.5949024</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>804.1450391819187</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-113.7498441,38.5949017,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DE91958FE2C4601690F">
+		<name>POI Misc ACT</name>
+		<LookAt>
+			<longitude>-115.4354930622284</longitude>
+			<latitude>42.72530411039923</latitude>
+			<altitude>1096.938502159049</altitude>
+			<heading>-0.9349852867842487</heading>
+			<tilt>0.5452397162045746</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>186.4485128113665</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.4356372552469,42.72535304172798,1097.926683557835</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="053EDAAF552C460BD28F">
+		<name>Cash-Landrum</name>
+		<LookAt>
+			<longitude>-95.11111396309701</longitude>
+			<latitude>30.09286162857917</latitude>
+			<altitude>26.17763639247099</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>336.8346279372781</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-95.11093395225838,30.09281996341241,26.48161565811859</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E31866B082C493D4E5A">
+		<name>Old Almonte Rd (GRDN)</name>
+		<LookAt>
+			<longitude>-76.06426302529931</longitude>
+			<latitude>45.25212103835633</latitude>
+			<altitude>136.1557043399982</altitude>
+			<heading>49.50670493359453</heading>
+			<tilt>0.1872915169314091</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>6313.709343523951</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-76.03271221317915,45.25987799264932,0 -76.09915288188073,45.25905563539791,0 -76.06480691434651,45.23170606927042,0 -76.03271221317915,45.25987799264932,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0BA08C17102C4983DA20">
+		<name>Haystack Butte</name>
+		<gx:mid>/g/1tlvpsnb</gx:mid>
+		<gx:fid>0x80a03415b7458003:0x98920f7c5b03d4ce</gx:fid>
+		<LookAt>
+			<longitude>-118.3718182</longitude>
+			<latitude>40.80823579999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3976.341740606959</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-118.3718182,40.8082363,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F793D298B2C49853062">
+		<name>Creech Air Force Base</name>
+		<gx:mid>/m/06k2fp</gx:mid>
+		<gx:fid>0x80c7d7f312529795:0x976ff704eed1406d</gx:fid>
+		<LookAt>
+			<longitude>-115.6582085</longitude>
+			<latitude>36.578108</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>828.4179916219836</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-115.6582085,36.578108,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C143EE65D2C4986CFFD">
+		<name>HB ENTER</name>
+		<LookAt>
+			<longitude>-118.3691208570873</longitude>
+			<latitude>40.80821878733335</latitude>
+			<altitude>1289.850544369991</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1039.200857617543</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-118.3696179754042,40.80828608645514,1292.442021135961</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AFE066B1C2C498855CE">
+		<name>Edwards Air Force Base</name>
+		<gx:mid>/m/0q_47</gx:mid>
+		<gx:fid>0x80c24ab03a29c3eb:0xdf7023bbd91346e8</gx:fid>
+		<LookAt>
+			<longitude>-117.9165079</longitude>
+			<latitude>34.91164805</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>19063.37735764829</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-117.8912085,34.9240314,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08073E0FA02C498BADE8">
+		<name>MANZANO WSF</name>
+		<LookAt>
+			<longitude>-106.3518954221393</longitude>
+			<latitude>35.05289778449593</latitude>
+			<altitude>2376.251232275559</altitude>
+			<heading>3.571928547123206</heading>
+			<tilt>61.90229900891968</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>177.1992252444579</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-106.3519052059723,35.05279276798311,2372.792702833749</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="019CFF9B482C498DBDB9">
+		<name>Starfire Optical Range</name>
+		<gx:mid>/m/0cz90d</gx:mid>
+		<gx:fid>0x8718a7793787a549:0xf8453ecdd52b9b70</gx:fid>
+		<LookAt>
+			<longitude>-106.4637504</longitude>
+			<latitude>34.9642134</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>847.1121899025558</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-106.4635744,34.9642121,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07D34B62CD2C498E398B">
+		<name>MNZN POI 1</name>
+		<LookAt>
+			<longitude>-106.4425222404922</longitude>
+			<latitude>34.98906770030489</latitude>
+			<altitude>2206.702562975989</altitude>
+			<heading>35.12918729519716</heading>
+			<tilt>15.60655971516068</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>647.0309627991811</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-106.4421001691954,34.98898374405689,2218.30930944332</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BC28B80942C498EA9B1">
+		<name>MNZN POI 2</name>
+		<LookAt>
+			<longitude>-106.4411776256133</longitude>
+			<latitude>34.98002409888411</latitude>
+			<altitude>1935.541350903133</altitude>
+			<heading>35.12823865965118</heading>
+			<tilt>15.60619478220916</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>496.1093755952608</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-106.4407532032134,34.97980408518882,1941.693353416558</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04DBAC89AD2C498FC213">
+		<name>MNZN POI 3</name>
+		<LookAt>
+			<longitude>-106.4213430803217</longitude>
+			<latitude>35.01057559813875</latitude>
+			<altitude>1900.759451285121</altitude>
+			<heading>35.18369547644601</heading>
+			<tilt>15.60631518315702</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>545.8904089209683</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-106.4209762363513,35.01055550244962,1904.68006981725</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BA0C896B42C49911B99">
+		<name>DOE NTC Live Fire Range</name>
+		<gx:mid>/g/11dd_qs45r</gx:mid>
+		<gx:fid>0x8718a68664baa7d9:0xa74edcbe2ceac627</gx:fid>
+		<LookAt>
+			<longitude>-106.4511032</longitude>
+			<latitude>35.00450889999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>846.6535405175609</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-106.4511032,35.0045089,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07ED8B33EF2C49913221">
+		<name>DOE NTC ISSTEC</name>
+		<gx:mid>/g/11dd_s8d1s</gx:mid>
+		<gx:fid>0x8718a67d6fb93b6f:0x84d9c64ab83d2136</gx:fid>
+		<LookAt>
+			<longitude>-106.4502645</longitude>
+			<latitude>34.99910740000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>846.715045554654</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-106.4502645,34.9991074,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="038C5C36742C49AE70B0">
+		<name>Tabletop Mountain</name>
+		<gx:mid>/g/1tdd0yq1</gx:mid>
+		<gx:fid>0x80a9ae1156484a53:0x4647865bb6f798f8</gx:fid>
+		<LookAt>
+			<longitude>-114.7919836</longitude>
+			<latitude>41.77296745</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3901.179193413204</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-114.7919836,41.772968,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FA9473BC22C49AFF34B">
+		<name>GRW OP (lol)</name>
+		<LookAt>
+			<longitude>-121.5425193993738</longitude>
+			<latitude>39.55195415708239</latitude>
+			<altitude>162.1129440574165</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>258.4339876325249</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-121.5427136104046,39.55204596086185,165.4316803968665</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E15B1F7232C49B12D53">
+		<name>Fort Huachuca</name>
+		<gx:mid>/g/1tc_rg7k</gx:mid>
+		<gx:fid>0x86d6d7c6a0ee7c8f:0xd3e5873cea077c13</gx:fid>
+		<LookAt>
+			<longitude>-110.33898855</longitude>
+			<latitude>31.56248015</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>9904.040017357058</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-110.3499216,31.5552157,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0186D45B3E2C49B3088C">
+		<name>HCHCA POI 1</name>
+		<LookAt>
+			<longitude>-110.4381392741707</longitude>
+			<latitude>31.5568330899802</latitude>
+			<altitude>1815.396780126322</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>216.9980953115009</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-110.4380357374082,31.55667187098337,1819.02808851156</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E24B5457C2C49B426EA">
+		<name>Black Tower</name>
+		<gx:mid>/g/11h4ymcw8g</gx:mid>
+		<gx:fid>0x86d6db3e7f93de4b:0x7cc6efe01abdba96</gx:fid>
+		<LookAt>
+			<longitude>-110.4363488</longitude>
+			<latitude>31.5936922</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>883.9557576752044</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-110.4363899,31.5936777,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03DB0A0CA22C49BA71DB">
+		<name>HLLMN POI 1</name>
+		<LookAt>
+			<longitude>-106.2314104986093</longitude>
+			<latitude>33.53749058381457</latitude>
+			<altitude>1434.916717463321</altitude>
+			<heading>-0.0001529842544930423</heading>
+			<tilt>0.7917114665869196</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2032.654325881158</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-106.233734957492,33.53722700616553,1433.794318340903</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01D4F60D102C49BB1D99">
+		<name>HLLMN POI 1a</name>
+		<LookAt>
+			<longitude>-106.1976425223662</longitude>
+			<latitude>33.52396648489355</latitude>
+			<altitude>1407.923348436389</altitude>
+			<heading>-0.0001529841001071275</heading>
+			<tilt>0.7918162362002927</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2876.257012031274</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-106.1949892782364,33.52118690720702,1405.666041647731</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="071A8574E32C49BC757D">
+		<name>SEAT X</name>
+		<LookAt>
+			<longitude>-106.4734931430332</longitude>
+			<latitude>33.67985970885483</latitude>
+			<altitude>1507.934125777966</altitude>
+			<heading>-0.0001529941804228983</heading>
+			<tilt>0.7924332656957991</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>7844.628719603645</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-106.4739654422168,33.67833406839866,1506.373302000254</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00BA7EBDED2C49BDC5D4">
+		<name>Stallion Army Airfield</name>
+		<gx:mid>/g/11p67mmr25</gx:mid>
+		<gx:fid>0x8720240e83510a87:0x3accf1c506478208</gx:fid>
+		<LookAt>
+			<longitude>-106.645341</longitude>
+			<latitude>33.817242</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>859.9897632212575</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-106.645341,33.817242,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C0E431FA92C49BE1357">
+		<name>STLLN POI 1</name>
+		<LookAt>
+			<longitude>-106.6790770990009</longitude>
+			<latitude>33.79203014199069</latitude>
+			<altitude>1511.957916467599</altitude>
+			<heading>-0.0001529837540499805</heading>
+			<tilt>0.7915577209421346</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>794.9232377667795</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-106.6776260164349,33.79202535041524,1510.808667205545</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04A263D5492C49E15060">
+		<name>Deep Springs College</name>
+		<gx:mid>/m/01zks0</gx:mid>
+		<gx:fid>0x80be49fac69bf743:0xbb8d055cc9d6b77d</gx:fid>
+		<LookAt>
+			<longitude>-117.9800048</longitude>
+			<latitude>37.373945</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>818.9586018996015</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-117.9800048,37.373945,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D8498FE9F2C49E43829">
+		<name>Southaven County Park</name>
+		<gx:mid>/m/05q8zcr</gx:mid>
+		<gx:fid>0x89e85acc7bfec5e7:0xa83a3fa38eeebd26</gx:fid>
+		<LookAt>
+			<longitude>-72.8928458</longitude>
+			<latitude>40.8025194</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>776.4652073889004</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-72.8928458,40.8025194,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="066E924B092C49E7BFDC">
+		<name>Dulce (Jicarilla)</name>
+		<LookAt>
+			<longitude>-106.9903487594101</longitude>
+			<latitude>36.93137565639237</latitude>
+			<altitude>2064.674590424186</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>9263.447133199079</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-106.9841821850544,36.93785654809274,2088.879796585639</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02A51CEB342C49FC0B1B">
+		<name>Iron Mountain</name>
+		<gx:mid>/g/1tffzz67</gx:mid>
+		<gx:fid>0x8717464f98616877:0xe1da46648c175da7</gx:fid>
+		<LookAt>
+			<longitude>-105.2522281</longitude>
+			<latitude>36.5983647</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4292.384654809977</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-105.2522281,36.5983652,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0976276F002C4A130F9E">
+		<name>IM POI X</name>
+		<LookAt>
+			<longitude>-105.209049523824</longitude>
+			<latitude>36.60072836921525</latitude>
+			<altitude>3392.754825238584</altitude>
+			<heading>58.39821450157166</heading>
+			<tilt>61.26740986199778</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>188.6504890497417</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-105.2091409813599,36.60064076306768,3396.234485995131</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09881B11322C4A677C92">
+		<name>SEAT XIV</name>
+		<LookAt>
+			<longitude>78.70820349582621</longitude>
+			<latitude>31.18858198166501</latitude>
+			<altitude>5449.482741119812</altitude>
+			<heading>8.08050515814568e-07</heading>
+			<tilt>0.1026504481243108</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>114836.5511227772</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>78.75844830141997,31.26229597208945,5481.770059878727</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="058880ACC32C4A68D8A1">
+		<name>SEAT XIV Chromatic Aberration</name>
+		<LookAt>
+			<longitude>78.58242631686299</longitude>
+			<latitude>31.26974156354207</latitude>
+			<altitude>4810.374026000961</altitude>
+			<heading>-1.441799742701362e-06</heading>
+			<tilt>0.1017799033100574</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>59783.05821094662</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0281E258BB2C9EAF18E1</styleUrl>
+		<Point>
+			<coordinates>78.67427403837026,31.28530695517315,4453.661754271714</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05F0479FDA2C4A6C5196">
+		<name>Kailash EM? CABB</name>
+		<LookAt>
+			<longitude>78.6989923174601</longitude>
+			<latitude>31.22300419540273</latitude>
+			<altitude>4358.146025484926</altitude>
+			<heading>11.66923903005518</heading>
+			<tilt>26.14707108083895</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>65088.84013895877</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						78.64999223149098,31.24233613976738,0 78.64602002317474,31.14969959877296,0 78.68996410345261,31.13789055348665,0 78.69436881259662,31.16050174863184,0 78.70233310252343,31.18919218761614,0 78.71515330916237,31.24281540715992,0 78.68810541186649,31.28145159809556,0 78.67953696154711,31.33729274333537,0 78.64841614365022,31.33195932140703,0 78.64999223149098,31.24233613976738,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0BBCEBBA9A2C4A8C3100">
+		<name>Pahute Mesa</name>
+		<gx:mid>/g/1z44bmp9j</gx:mid>
+		<gx:fid>0x80b8ee937e5f49c1:0x89e7f0a42bb65578</gx:fid>
+		<LookAt>
+			<longitude>-116.6728425</longitude>
+			<latitude>37.26132745</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4244.001265056235</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-116.6728425,37.261328,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01B84339272C4A8E247C">
+		<name>PAHUTE MESA STAR</name>
+		<LookAt>
+			<longitude>-116.7844112743573</longitude>
+			<latitude>37.32215253939576</latitude>
+			<altitude>1703.273561824774</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1210.022917052556</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-116.7855022430733,37.32285944548862,1703.615503010481</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E9ED28B132C4A90523B">
+		<name>PHTMSA POI</name>
+		<LookAt>
+			<longitude>-116.7388704083947</longitude>
+			<latitude>37.39179992997776</latitude>
+			<altitude>1643.187481967126</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1091.669750785805</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-116.7378160687625,37.39209100796463,1639.140433561945</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D6D899E4D2C4AB904C8">
+		<name>KLSH BASE CAMP</name>
+		<LookAt>
+			<longitude>78.67849123362333</longitude>
+			<latitude>31.27793031686913</latitude>
+			<altitude>4207.527936232592</altitude>
+			<heading>-1.455164915418513e-06</heading>
+			<tilt>0.1003137323679188</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>591.6511949273263</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>78.67949405497718,31.27761536888545,4223.065081631249</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0127E4E19C2C4AC87AE9">
+		<name>Kasar Devi Temple Almora</name>
+		<gx:mid>/g/1hc2ng768</gx:mid>
+		<gx:fid>0x39a0b0b5b1d044af:0xd09ff48a9b5b55af</gx:fid>
+		<LookAt>
+			<longitude>79.6617814</longitude>
+			<latitude>29.6417963</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>903.8707707135059</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>79.6617814,29.6417963,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="013929804B2C4AE661EF">
+		<name>Moriches Bay</name>
+		<gx:mid>/m/05q4_5l</gx:mid>
+		<gx:fid>0x89e85876ac61d25d:0x24fbf19c5bb5432b</gx:fid>
+		<LookAt>
+			<longitude>-72.71982045</longitude>
+			<latitude>40.77791415</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>8801.864154555493</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-72.71710519999999,40.78101729999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07A908AE962C4AE697FB">
+		<name>SDI DOWNED</name>
+		<LookAt>
+			<longitude>-72.73600839962788</longitude>
+			<latitude>40.77789193738716</latitude>
+			<altitude>-0.8068194873232348</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1086.622040486836</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-72.73640152786255,40.77705325714555,-0.1925888511789653</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="064DA7E8092C4AE87399">
+		<name>Brookhaven National Laboratory</name>
+		<gx:mid>/g/113gdd_j9</gx:mid>
+		<gx:fid>0x89e85b5f7089df8b:0x2f6b4d140ae94085</gx:fid>
+		<LookAt>
+			<longitude>-72.87516839999999</longitude>
+			<latitude>40.8642635</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>775.674934968463</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-72.87516839999999,40.8642635,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00765C9B8B2C4AECA82C">
+		<name>BRKHVN STHVN MRCHS</name>
+		<LookAt>
+			<longitude>-72.78502631856027</longitude>
+			<latitude>40.8240584367932</latitude>
+			<altitude>25.74148383463223</altitude>
+			<heading>9.733902685038592</heading>
+			<tilt>9.634688539414894</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>33151.25041329302</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-72.90121861357812,40.81705653529411,0 -72.72240931986066,40.78976274927395,0 -72.87378518588585,40.86436413883772,0 -72.90121861357812,40.81705653529411,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0839EB10C62C4AF155AB">
+		<name>Pock Marks</name>
+		<LookAt>
+			<longitude>-117.156476430478</longitude>
+			<latitude>37.39817911594525</latitude>
+			<altitude>1430.777086737714</altitude>
+			<heading>-9.246571377714825e-09</heading>
+			<tilt>0.1054581063330757</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1636.316635145922</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-117.1610861737085,37.39615339585976,0 -117.1549025659566,37.39622876529076,0 -117.1548857369059,37.40119066651246,0 -117.1609235969461,37.40117686654342,0 -117.1610861737085,37.39615339585976,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="03C45D5C5C2C4AF30139">
+		<name>Pock Marks 2</name>
+		<LookAt>
+			<longitude>-117.1098241591089</longitude>
+			<latitude>37.36113861531766</latitude>
+			<altitude>1329.875490201107</altitude>
+			<heading>2.595594741541514e-08</heading>
+			<tilt>0.1054599848650613</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1755.235149416258</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-117.1135564724185,37.36330527936639,0 -117.113470784387,37.3598527205015,0 -117.108838660222,37.35991444543578,0 -117.109000702618,37.36333386455133,0 -117.1135564724185,37.36330527936639,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="06D68057452C4AFCE642">
+		<name>Crescent Dunes Solar Energy Project</name>
+		<gx:mid>/m/0h7m2gx</gx:mid>
+		<gx:fid>0x80bc12a045751d3b:0xe272bd32ab77ada2</gx:fid>
+		<LookAt>
+			<longitude>-117.364418</longitude>
+			<latitude>38.23863219999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>808.5047701335469</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-117.364418,38.2386322,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="088695E24F2C4AFF4735">
+		<name>Nevada Uplands, LLC</name>
+		<gx:mid>/g/11sd5r0671</gx:mid>
+		<gx:fid>0x809919843553a725:0x79e26b3124039f5b</gx:fid>
+		<LookAt>
+			<longitude>-119.5495127</longitude>
+			<latitude>39.4653219</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>793.3667864005432</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-119.5495127,39.4653219,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="075EA8F4052C4B02D14E">
+		<name>NVUP</name>
+		<LookAt>
+			<longitude>-119.5537394176964</longitude>
+			<latitude>39.47073109970672</latitude>
+			<altitude>1650.900970318572</altitude>
+			<heading>-3.204320827340726e-08</heading>
+			<tilt>0.105438563709003</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>517.9635340315872</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-119.5539233422133,39.4708043814507,1652.64726228578</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0379EB492A2C4B0ABBDA">
+		<name>Pyramid Lake RSRV</name>
+		<LookAt>
+			<longitude>-119.6903108823073</longitude>
+			<latitude>40.49399224443101</latitude>
+			<altitude>1199.136250557781</altitude>
+			<heading>-11.5997282163458</heading>
+			<tilt>2.700996840003415</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>49254.58363815676</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-119.6908159729705,40.4965855762049,1197.951998439523</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01EEDAE73D2C4B0E8DBA">
+		<name>SEAT XVIII</name>
+		<LookAt>
+			<longitude>-105.6253160010449</longitude>
+			<latitude>31.7479553471289</latitude>
+			<altitude>1381.628401637959</altitude>
+			<heading>-0.8814529243573862</heading>
+			<tilt>2.681538571027491</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2977.035995359475</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-105.6273038559593,31.74873872010676,1382.959654619331</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="041A9319A82C4B0FAEA7">
+		<name>Aviation Navigation Arrow - Buckhorn Draw East #4</name>
+		<gx:mid>/g/11b7lmxz0v</gx:mid>
+		<gx:fid>0x86e6dcedc2ffb3d7:0x144e71461617bf77</gx:fid>
+		<LookAt>
+			<longitude>-105.6278814</longitude>
+			<latitude>31.806452</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>881.7207550686522</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-105.6278814,31.806452,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A98BABB442C4B224E40">
+		<name>BLDG 2942</name>
+		<gx:mid>/g/11sjfkmxcd</gx:mid>
+		<gx:fid>0x339675eb4ba84941:0x79a02ad6a3a1f399</gx:fid>
+		<LookAt>
+			<longitude>120.2250695</longitude>
+			<latitude>14.7695827</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1017.586200761952</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>120.2250695,14.7695827,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07ED4D46A52C4B5FF266">
+		<name>52°28&apos;47.1&quot;N 62°11&apos;08.4&quot;E</name>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>62.1856667,52.47975,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C79857F672C4B625AEB">
+		<name>BNYRD</name>
+		<LookAt>
+			<longitude>-110.8285288463515</longitude>
+			<latitude>32.15482647800489</latitude>
+			<altitude>849.2360704632009</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2189.85110904614</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-110.8280961753005,32.15575443680599,850.3164269548646</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FEE0D44ED2C4B68564E">
+		<name>30°30&apos;38.4&quot;S 115°22&apos;56.0&quot;E</name>
+		<description><![CDATA[<div>REDACTED</div>]]></description>
+		<styleUrl>#__managed_style_031E38F9302C9EAF18DF</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>115.3822306,-30.5106778,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="024B1568932C4B6E177F">
+		<name>LANDNAV</name>
+		<LookAt>
+			<longitude>-112.6305462359866</longitude>
+			<latitude>33.74572859010819</latitude>
+			<altitude>517.7467432075939</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999967341376</gx:fovy>
+			<range>5722.093888454838</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-112.6331088866354,33.74453078628358,517.3941559446886</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01BF059E4A2C4B721CDA">
+		<name>LANDNAV 2</name>
+		<LookAt>
+			<longitude>-116.8482039457347</longitude>
+			<latitude>37.62916188266804</latitude>
+			<altitude>1592.435852306418</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3262.833781282534</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-116.8484833068276,37.6279688587954,1594.256170005064</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C45D7CD312C4B7430C7">
+		<name>LANDNAV 3</name>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-116.867808,37.401573,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A71C05C512C4B75B2DA">
+		<name>32°39&apos;48.1&quot;N 111°29&apos;15.4&quot;W</name>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-111.487618,32.663367,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06E273D1C32C4B78896A">
+		<name>Raven Rock Mountain</name>
+		<gx:mid>/m/0dmltq</gx:mid>
+		<gx:fid>0x89c9ba4de8522091:0x5cee1b552a59427f</gx:fid>
+		<LookAt>
+			<longitude>-77.41943289999999</longitude>
+			<latitude>39.73398375000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4058.898504981376</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.41943289999999,39.7339843,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="088E21AB372C4B7CD016">
+		<name>37°33&apos;50.2&quot;N 116°51&apos;04.4&quot;W</name>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-116.85123,37.563936,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F7869A2542C4B87EEA0">
+		<name>NRD BLACKOUT</name>
+		<LookAt>
+			<longitude>-105.2160179465505</longitude>
+			<latitude>38.75193500643099</latitude>
+			<altitude>2987.065482998135</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3774.792092030403</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-105.215920980045,38.75612630636333,3098.712387968836</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0455FD5C7B2C4B88A556">
+		<name>Cheyenne Mountain Space Force Station</name>
+		<gx:mid>/m/0kvg_gm</gx:mid>
+		<gx:fid>0x87134320cc4fd815:0x4466335f253eaa1</gx:fid>
+		<LookAt>
+			<longitude>-104.8459048</longitude>
+			<latitude>38.7441348</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>802.3098496725203</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-104.8459048,38.7441348,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CB109958A2C4B8C0252">
+		<name>POI NRD</name>
+		<LookAt>
+			<longitude>-104.8965954176547</longitude>
+			<latitude>38.73126818992905</latitude>
+			<altitude>2559.85031567047</altitude>
+			<heading>-101.3952608361247</heading>
+			<tilt>39.91041964296353</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>316.128455997241</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-104.8968704930185,38.73180872312321,2570.061487335156</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08BC3117EF2C4B976983">
+		<name>Mount Archuleta</name>
+		<gx:mid>/g/1tdg3pmn</gx:mid>
+		<gx:fid>0x873db98037b7a9db:0xbc94ac8bd17a76f3</gx:fid>
+		<LookAt>
+			<longitude>-107.0553161</longitude>
+			<latitude>36.9886196</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4263.970039078367</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-107.0553161,36.9886201,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="099FAB73E52C4B9F23BA">
+		<name>Lake Kickapoo</name>
+		<gx:mid>/m/04mr_</gx:mid>
+		<gx:fid>0x86530d4b70731e4d:0xff79ed7cf6e0da4b</gx:fid>
+		<LookAt>
+			<longitude>-98.83411585</longitude>
+			<latitude>33.6414711</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>19353.61470019836</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-98.8224941,33.6458043,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07FB9973612C4BA1011B">
+		<name>CHRT PATH</name>
+		<LookAt>
+			<longitude>-98.9004662145954</longitude>
+			<latitude>33.6448612607179</latitude>
+			<altitude>324.0689750230624</altitude>
+			<heading>2.695517231068314</heading>
+			<tilt>44.50377376069252</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>35564.56881011837</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<LineString>
+			<coordinates>
+				-98.82103187819924,33.65201081104782,0 -98.83534242089951,33.64529669322708,0 -98.85393970114035,33.6343999485891,0 -98.86238880736192,33.62421883255738,0 -98.87490727046239,33.60719666217071,0 -98.85905686280371,33.61169922234886,0 -98.86206834775932,33.62474727611284,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="016CD951752C4BA52732">
+		<name>Camp Hero State Park</name>
+		<gx:mid>/m/09cdh_</gx:mid>
+		<gx:fid>0x89ef55cb7ad19759:0x6a2f4a41843b1157</gx:fid>
+		<LookAt>
+			<longitude>-71.8756307</longitude>
+			<latitude>41.06535520000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>773.0951835036365</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-71.8756307,41.0653552,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DD71707AA2C4BA5E006">
+		<name>PSION 20k</name>
+		<LookAt>
+			<longitude>-71.87535843029099</longitude>
+			<latitude>41.05865507147097</latitude>
+			<altitude>25.89009244517724</altitude>
+			<heading>-149.9519703857703</heading>
+			<tilt>78.57067369906059</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>794.3071771757968</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-71.87375225912143,41.06242106674298,33.62493188137182</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03D649134F2C4E5F21F8">
+		<name>15°47&apos;25.0&quot;S 47°55&apos;30.1&quot;W</name>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-47.9250331,-15.7902833,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B3CB0BC6F2C4E6BA0C6">
+		<name>Battelle Memorial Institute</name>
+		<gx:mid>/g/11b6hszgwy</gx:mid>
+		<gx:fid>0x8640db727e05a269:0xd9409936854023c3</gx:fid>
+		<LookAt>
+			<longitude>-95.59353829999999</longitude>
+			<latitude>29.7836888</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>902.4592980460167</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-95.59353829999999,29.7836888,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0384A6CD9E2C4E751EBA">
+		<name>Immaculate Seat  (Battelle)</name>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-39.9258167,70.48445,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00EE3078A02C4EA43987">
+		<name>KWJ POI</name>
+		<LookAt>
+			<longitude>166.8305858436979</longitude>
+			<latitude>9.32653245518058</latitude>
+			<altitude>10.29491427405689</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1613.998832012003</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>166.8296758782687,9.32643469469925,11.57694061875323</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DEAD9B2402C4EC61DD5">
+		<name>Naval Communication Station Harold E. Holt</name>
+		<gx:mid>/m/01pc4h</gx:mid>
+		<gx:fid>0x2bf934bfc0ed8c45:0x6c1efd0d727480e0</gx:fid>
+		<LookAt>
+			<longitude>114.166339</longitude>
+			<latitude>-21.816791</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>972.4474052406963</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>114.166339,-21.816791,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FE4560D302C4ECB684D">
+		<name>Beneath</name>
+		<LookAt>
+			<longitude>114.167198254476</longitude>
+			<latitude>-21.81874663876356</latitude>
+			<altitude>2.480560991017999</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999924896</gx:fovy>
+			<range>5842.397125221324</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<LineString>
+			<coordinates>
+				114.1664650025113,-21.80625339656861,0 114.164815302693,-21.82625546965541,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0725EE556F2C4EE502EA">
+		<name>Pituffik Space Base</name>
+		<gx:mid>/m/0386h1</gx:mid>
+		<gx:fid>0x4e36258e30639b91:0x982370dbfb8271f0</gx:fid>
+		<LookAt>
+			<longitude>-68.70714649999999</longitude>
+			<latitude>76.5308268</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>223.4615388781643</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-68.70714649999999,76.5308268,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EC7506F322C4EE927B4">
+		<name>PTFK POI</name>
+		<LookAt>
+			<longitude>-68.32641212065603</longitude>
+			<latitude>76.42408133645613</latitude>
+			<altitude>454.4529188572503</altitude>
+			<heading>1.779094129222964</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2647.733670017333</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-68.31439000075187,76.42265446057259,476.6241361606868</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A99FFCC9B2C4EED48A0">
+		<name>Arrival Heights Laboratory</name>
+		<gx:mid>/g/11kjnsymhf</gx:mid>
+		<gx:fid>0xaf773984cef5fc6d:0x7c06d9f59c677110</gx:fid>
+		<LookAt>
+			<longitude>166.662385</longitude>
+			<latitude>-77.82993435</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>874.1946174111914</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>166.662385,-77.8299346,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AE372B8BD2C4F140201">
+		<name>PRTB HOLT</name>
+		<LookAt>
+			<longitude>114.1759255510772</longitude>
+			<latitude>-21.75989615800003</latitude>
+			<altitude>-0.7286227953728963</altitude>
+			<heading>-3.527305319825505</heading>
+			<tilt>13.12808797168531</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1599.207444362983</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>114.1735784809558,-21.76022790161273,0.4043358297277121</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="024C2A95532C4F1ACCB2">
+		<name>Fukushima Daiichi Nuclear Power Station Unit 1</name>
+		<gx:mid>/g/11gglqvrjg</gx:mid>
+		<gx:fid>0x6020dd4828c10e49:0xe178bec36a29d920</gx:fid>
+		<LookAt>
+			<longitude>141.0329363</longitude>
+			<latitude>37.42294549999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>818.3710693012595</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>141.0329363,37.4229455,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08D682ED952C4F33BCD2">
+		<name>Delphos</name>
+		<gx:mid>/m/0t9fc</gx:mid>
+		<gx:fid>0x87bd332375761fdb:0x7f8a4ddce03198ad</gx:fid>
+		<LookAt>
+			<longitude>-97.76750955000001</longitude>
+			<latitude>39.27016649999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4094.155788716658</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-97.77198279999999,39.2738894,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04587F56A52C4F41A1AF">
+		<name>DISCOUNTED SEAT</name>
+		<LookAt>
+			<longitude>144.9562813929023</longitude>
+			<latitude>-37.79152475516547</latitude>
+			<altitude>37.53650822918232</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1633.864259712864</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>144.9538296251208,-37.79093818696044,40.34809887423079</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="078048F0D22C4F530F37">
+		<name>Whitehall</name>
+		<gx:mid>/m/0x2dr</gx:mid>
+		<gx:fid>0x535ae218dbec3c37:0xbc31a01c6f2a6a66</gx:fid>
+		<LookAt>
+			<longitude>-112.09730355</longitude>
+			<latitude>45.8717485</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3572.244590444653</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-112.0986053,45.8693709,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="054F65449B2C4F604140">
+		<name>ASTRP POI</name>
+		<LookAt>
+			<longitude>-115.5555207435434</longitude>
+			<latitude>43.49846170728488</latitude>
+			<altitude>1483.619398150471</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>6951.728206719274</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.5466947048747,43.49694767483836,1495.679825513841</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00B37FB1162C4F705440">
+		<name>Aurora</name>
+		<gx:mid>/m/010c7m</gx:mid>
+		<gx:fid>0x864dc10964c35e63:0x4c75d4ce09a51810</gx:fid>
+		<LookAt>
+			<longitude>-97.51018484999999</longitude>
+			<latitude>33.05953985</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>9741.709186201939</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-97.5033561,33.0606784,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E3B72D5582C4F71FCA7">
+		<name>AURTOLAKE</name>
+		<LookAt>
+			<longitude>-98.90992633603656</longitude>
+			<latitude>33.3989305076594</latitude>
+			<altitude>449.4428307179464</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>353379.9231228232</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<LineString>
+			<coordinates>
+				-97.50239826069215,33.08543364448755,0 -97.90058715629748,33.60370479695078,0 -98.39311270698505,33.56469355050722,0 -98.57037053841786,33.68830042858034,0 -98.81854161659464,33.65107882015492,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0B5A886CF72C4F7AB6CF">
+		<name>Estancia la Iberica</name>
+		<gx:mid>/g/11t04yd0p9</gx:mid>
+		<gx:fid>0xbde32f4a6d466da1:0x42d8e397434751a7</gx:fid>
+		<LookAt>
+			<longitude>-66.4783322</longitude>
+			<latitude>-45.0693855</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>719.905594709908</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-66.4783322,-45.0693855,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E9ABE10532C4F7B4A71">
+		<name>ASTRP SA POI</name>
+		<LookAt>
+			<longitude>-66.49792910869988</longitude>
+			<latitude>-45.15200578518859</latitude>
+			<altitude>19.61823469925937</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3652.377283251844</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-66.49262264996118,-45.15269586921824,13.21963315103165</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F61AC4E022C4F7F8986">
+		<name>Private Reserve</name>
+		<LookAt>
+			<longitude>-69.459273132424</longitude>
+			<latitude>-31.8191922019882</latitude>
+			<altitude>1878.829414324199</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4908.094373890199</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-69.45319860585037,-31.81598219864027,1882.247610937706</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="002C14435D2C4F844202">
+		<name>Ojo de Mata</name>
+		<gx:mid>/g/11v5tx8_1q</gx:mid>
+		<gx:fid>0x96ab2fc01fe9331b:0xf7078b5564531620</gx:fid>
+		<LookAt>
+			<longitude>-68.2945253</longitude>
+			<latitude>-21.3187058</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>976.1718002482047</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-68.2945253,-21.3187058,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08BBF6F9192C4F869D32">
+		<name>Coposa Norte Range</name>
+		<LookAt>
+			<longitude>-68.59915268995027</longitude>
+			<latitude>-20.68576472582293</latitude>
+			<altitude>3899.55095182981</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>45966.72880397179</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-68.63792539051111,-20.65423565189521,3745.543315716554</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07C0951A912C4F88BD42">
+		<name>Geoglifos de Ariquilda</name>
+		<gx:mid>/g/11fkf911lm</gx:mid>
+		<gx:fid>0x91517155ccd3f7e5:0xdaafdeb16966b757</gx:fid>
+		<LookAt>
+			<longitude>-69.55663229999999</longitude>
+			<latitude>-19.6237993</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>988.2468030215961</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-69.55663229999999,-19.6237993,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05419902B62C4F9C3E02">
+		<name>Mount Hayes Redact</name>
+		<LookAt>
+			<longitude>-146.6971106437476</longitude>
+			<latitude>63.62047352013784</latitude>
+			<altitude>3304.348796511083</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2589.901851198811</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-146.6876742016792,63.62380066474424,3102.110913483174</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D326BFF3A2C4FA4FF1A">
+		<name>Mount Zeil</name>
+		<gx:mid>/m/027flyj</gx:mid>
+		<gx:fid>0x2b3a10179d26a17d:0x7502a591d406459e</gx:fid>
+		<LookAt>
+			<longitude>132.3958333</longitude>
+			<latitude>-23.4016663</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5120.464755340064</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>132.3958333,-23.4016667,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02733904942C4FAAF14F">
+		<name>Unmarked near Mt. Ziel</name>
+		<LookAt>
+			<longitude>132.6261652795201</longitude>
+			<latitude>-23.22759133206272</latitude>
+			<altitude>586.185304911053</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>983.0203963982058</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>132.625575708209,-23.22774778174502,586.8415718785822</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0145A8ED542C4FAC18BE">
+		<name>Monte Perdido</name>
+		<gx:mid>/m/071n_n</gx:mid>
+		<gx:fid>0x12a802fc56b463fb:0x666bd068cb6bd717</gx:fid>
+		<LookAt>
+			<longitude>0.0337596</longitude>
+			<latitude>42.67559379999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3830.025238037084</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>0.0337596,42.6755943,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07ABA076552C4FAE12D9">
+		<name>Mount Nyangani</name>
+		<gx:mid>/m/0284z9v</gx:mid>
+		<gx:fid>0x192c6ccdfe757c23:0x92560a52a8ee50eb</gx:fid>
+		<LookAt>
+			<longitude>32.8419444</longitude>
+			<latitude>-18.29555525</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5358.378126512418</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>32.8419444,-18.2955556,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0095F837352C4FB7CE6F">
+		<name>Robert Gray Army Airfield Base Operations</name>
+		<gx:mid>/g/11sgr0fckt</gx:mid>
+		<gx:fid>0x865ab54068dec531:0xa69145d9fd0f8689</gx:fid>
+		<LookAt>
+			<longitude>-97.83563529999999</longitude>
+			<latitude>31.0736857</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>889.3656336451816</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-97.83563529999999,31.0736857,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B34C2FC4D2C4FE551C4">
+		<name>Near Big Spring REDACTED</name>
+		<LookAt>
+			<longitude>-101.5823581313057</longitude>
+			<latitude>32.6365953065924</latitude>
+			<altitude>782.4205915564584</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>10296.60067701247</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-101.5795819425128,32.64406362957082,778.8785668011564</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0725F7855C2C4FE684A4">
+		<name>Untitled path</name>
+		<LookAt>
+			<longitude>-101.5654432407396</longitude>
+			<latitude>32.62385691327097</latitude>
+			<altitude>768.6674754883398</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>14510.64424854471</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<LineString>
+			<coordinates>
+				-101.4853892677403,32.25371749619958,0 -101.5794849786222,32.65167400102386,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0EA91436622C4FF22FAA">
+		<name>Triangle Grove</name>
+		<LookAt>
+			<longitude>-104.7276810805188</longitude>
+			<latitude>36.04394961625194</latitude>
+			<altitude>1954.377343815291</altitude>
+			<heading>-5.970962193800804</heading>
+			<tilt>49.19442280407491</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2725.918016964861</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-104.7279402558774,36.04083187510258,1941.230883698559</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F962B1B272C502F10B5">
+		<name>67555</name>
+		<gx:mid>/g/1tf68kgx</gx:mid>
+		<gx:fid>0x40c6150fac498f85:0x69b80c1166c40c2a</gx:fid>
+		<LookAt>
+			<longitude>31.10176355</longitude>
+			<latitude>46.6397325</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>7980.507868864165</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>31.1056765,46.6436401,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C307C95BF2C5033549E">
+		<name>Mt. Ararat POI</name>
+		<LookAt>
+			<longitude>44.47302755807327</longitude>
+			<latitude>39.64513397904106</latitude>
+			<altitude>1877.84973921149</altitude>
+			<heading>14.27282209863497</heading>
+			<tilt>3.905961233138834</tilt>
+			<gx:fovy>34.9999999999963</gx:fovy>
+			<range>998.5615330313158</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>44.4722426724378,39.64542040537562,1889.586026887573</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0714A0D4152C50486C00">
+		<name>Valley of the Kings</name>
+		<gx:mid>/m/08m8w6</gx:mid>
+		<gx:fid>0x14493d8ab5defed7:0x718fccf6a2e3a9da</gx:fid>
+		<LookAt>
+			<longitude>32.6015937</longitude>
+			<latitude>25.7425801</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2086.26070881144</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>32.601411,25.7401643,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0866EDB4A22C504E28FF">
+		<name>GIZA</name>
+		<LookAt>
+			<longitude>31.12883399130199</longitude>
+			<latitude>29.97141738948531</latitude>
+			<altitude>67.59455251660906</altitude>
+			<heading>5.219626196288927</heading>
+			<tilt>37.00712576819475</tilt>
+			<gx:fovy>34.99999999999897</gx:fovy>
+			<range>3657.901710414445</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>31.13159783513033,29.97263727187005,57.07681148721498</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0902B6AAB02C5063FF47">
+		<name>Laboratori Nazionali del Gran Sasso - INFN</name>
+		<gx:mid>/m/0f5n4q</gx:mid>
+		<gx:fid>0x132e2b9a74871ea5:0xd66fb206c91f2c29</gx:fid>
+		<LookAt>
+			<longitude>13.5151479</longitude>
+			<latitude>42.4202442</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>755.4798314011815</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>13.5151479,42.4202442,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="003947EBB52C5066DEAD">
+		<name>Arecibo Observatory</name>
+		<gx:mid>/m/014_zq</gx:mid>
+		<gx:fid>0x8c02db84dca94fc1:0x1ce481f2793da255</gx:fid>
+		<LookAt>
+			<longitude>-66.75272079999999</longitude>
+			<latitude>18.3441366</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>996.742906554824</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-66.75272079999999,18.3441366,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E4B2EA43F2C50685C8B">
+		<name>National Palace Museum</name>
+		<gx:mid>/m/0hhwl</gx:mid>
+		<gx:fid>0x3442ac3acd404a7d:0x5d6d7018397a09c1</gx:fid>
+		<LookAt>
+			<longitude>121.5484925</longitude>
+			<latitude>25.1023554</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>945.920202160603</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>121.5484925,25.1023554,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0048C2F14E2C506D377D">
+		<name>Diamond Light Source</name>
+		<gx:mid>/m/02897j</gx:mid>
+		<gx:fid>0x4876ba15d7e7a925:0xdfcc665485df3d74</gx:fid>
+		<LookAt>
+			<longitude>-1.310914</longitude>
+			<latitude>51.574362</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>626.84367915059</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-1.310914,51.574362,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01D9D8D74D2C507211FA">
+		<name>Embassy of the Sovereign Military Order of Malta</name>
+		<gx:mid>/g/1w4nnlhf</gx:mid>
+		<gx:fid>0x130e452d13be457b:0x3aa36ea10f52954c</gx:fid>
+		<LookAt>
+			<longitude>14.5088193</longitude>
+			<latitude>35.897363</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>836.3839352976045</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>14.5088193,35.897363,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08ED6CEF252C507EB4B2">
+		<name>La palapa</name>
+		<gx:mid>/g/11tk9d7b_r</gx:mid>
+		<gx:fid>0x86f42bda4503aa83:0xf18344925533d4aa</gx:fid>
+		<LookAt>
+			<longitude>-101.3649538</longitude>
+			<latitude>29.6543083</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>903.7465388274264</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-101.3649538,29.6543083,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02A6CCE5952C50CD9F3A">
+		<name>REDACT ZONE</name>
+		<LookAt>
+			<longitude>-113.1294493917784</longitude>
+			<latitude>33.76759546926036</latitude>
+			<altitude>1346.129398230453</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>0.1</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-113.1295240741881,33.76775655036702,777.6679171353342</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0952D53CA32C50D46CF0">
+		<name>NEAR SMTHSNN OBSRVTRY</name>
+		<LookAt>
+			<longitude>-113.3315890092766</longitude>
+			<latitude>33.80900849943426</latitude>
+			<altitude>1465.643956981189</altitude>
+			<heading>-19.70573577756514</heading>
+			<tilt>3.316573390660375</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>500.8375131542562</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-113.3305361447071,33.80884091490964,1459.526553023656</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02C2FB93DA2C50DAADB4">
+		<name>Ivanpah Solar Electric Generating System</name>
+		<gx:mid>/m/07s7pqd</gx:mid>
+		<gx:fid>0x80cf43490ff9fde1:0x17080474266201e1</gx:fid>
+		<LookAt>
+			<longitude>-115.4704092</longitude>
+			<latitude>35.5564384</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>840.3293156271977</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-115.4704092,35.5564384,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B810094422C51E58642">
+		<name>Oak Ridge National Laboratory</name>
+		<gx:mid>/m/09hv1</gx:mid>
+		<gx:fid>0x885c33818f357999:0x343db5642e82db3a</gx:fid>
+		<LookAt>
+			<longitude>-84.3101161</longitude>
+			<latitude>35.9311679</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>835.9911154914014</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-84.31024769999999,35.9311042,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F0C7FF2F02C51EA9391">
+		<name>Y-12 National Security Complex</name>
+		<gx:mid>/m/05dk4r</gx:mid>
+		<gx:fid>0x885c32dbc2313ea3:0xb8de0dcca9966eb4</gx:fid>
+		<LookAt>
+			<longitude>-84.25605999999999</longitude>
+			<latitude>35.9869659</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>835.3420980818281</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-84.25605999999999,35.9869659,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B2F112FB22C51EB64D8">
+		<name>Center for Nanophase Materials Sciences</name>
+		<gx:mid>/g/11bxjr8rkj</gx:mid>
+		<gx:fid>0x885dd29d8944e8b7:0x45777aff2d5b7a19</gx:fid>
+		<LookAt>
+			<longitude>-84.2981269</longitude>
+			<latitude>35.9538713</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>835.7271348217781</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-84.29825009999999,35.953877,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="006A0E21362C51EC0C00">
+		<name>ORNL SNS Substation</name>
+		<gx:mid>/g/1tfsj3p8</gx:mid>
+		<gx:fid>0x885dd28325c0842f:0xdbaa06f43cf5167b</gx:fid>
+		<LookAt>
+			<longitude>-84.30284879999999</longitude>
+			<latitude>35.9519958</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>835.7489468881495</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-84.30284879999999,35.9519958,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B3CA5A8CA2C51F1B85C">
+		<name>BRL 1?</name>
+		<LookAt>
+			<longitude>-113.7152280857541</longitude>
+			<latitude>38.66093825787701</latitude>
+			<altitude>1583.570442839092</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>184.1300227810098</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-113.7150425654821,38.66094263101946,1583.962294229899</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="005AD281CE2C51F23D22">
+		<name>BRL 2?</name>
+		<LookAt>
+			<longitude>-113.7481449073481</longitude>
+			<latitude>38.66465939821089</latitude>
+			<altitude>1645.691522232689</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>509.5782030696137</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-113.7479001680335,38.66456008787566,1646.487316401574</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BE88ACB482C51F418F7">
+		<name>BRL 3?</name>
+		<LookAt>
+			<longitude>-113.7331738781398</longitude>
+			<latitude>38.62047789954291</latitude>
+			<altitude>1552.879359736804</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3724.851967662689</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-113.7333565045994,38.62177302401934,1554.918076965059</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A153DA5C72C51F470ED">
+		<name>BRL 4?</name>
+		<LookAt>
+			<longitude>-113.7215917200009</longitude>
+			<latitude>38.61618383962919</latitude>
+			<altitude>1547.588473459095</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1534.013863725413</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-113.7189824671495,38.6154243663459,1549.319993737985</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04A5F767932C51F64650">
+		<name>Garrison</name>
+		<gx:mid>/m/02qzw4h</gx:mid>
+		<gx:fid>0x80b3e46a5fa2d8af:0x23f398df46a34f28</gx:fid>
+		<LookAt>
+			<longitude>-114.0266443</longitude>
+			<latitude>38.93932514999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>9040.902579158143</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-114.031767,38.9373514,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0DAB1ADB302C51F95442">
+		<name>BRL Probable.</name>
+		<LookAt>
+			<longitude>-113.770920923715</longitude>
+			<latitude>38.54392070524671</latitude>
+			<altitude>1630.214335095897</altitude>
+			<heading>14.08962952315649</heading>
+			<tilt>2.776755125576234</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>401.7389984900365</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-113.7719783069891,38.54359911058657,0 -113.7717060558754,38.54341164393134,0 -113.7710478013242,38.54348774810479,0 -113.7704469694648,38.54354469790482,0 -113.7702075622268,38.54388076709134,0 -113.7705367454143,38.54430891278462,0 -113.7713184237885,38.54448331232286,0 -113.7719524122949,38.54431772971844,0 -113.7719783069891,38.54359911058657,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0EC972FC072C5200DC4A">
+		<name>Sevler Lake Redact</name>
+		<LookAt>
+			<longitude>-113.1448902577792</longitude>
+			<latitude>38.98064631882973</latitude>
+			<altitude>1377.901835978275</altitude>
+			<heading>14.60020518549572</heading>
+			<tilt>2.816245279175475</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>91069.00509509259</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-113.1254512014482,38.96949153368382,1380.08733604019</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0369502B622C5213B033">
+		<name>LM1Z59</name>
+		<LookAt>
+			<longitude>-113.9712071576049</longitude>
+			<latitude>35.93166669453849</latitude>
+			<altitude>1691.285748485846</altitude>
+			<heading>72.70644673014408</heading>
+			<tilt>10.22225604110158</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>612.5429730830365</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-113.9711570297723,35.931537494832,1692.963047170867</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0587A1E0BA2C521C8E40">
+		<name>Zx589C</name>
+		<LookAt>
+			<longitude>-110.6602877992683</longitude>
+			<latitude>34.95019647579453</latitude>
+			<altitude>1534.082569886433</altitude>
+			<heading>132.0795857661295</heading>
+			<tilt>0.2278480170443253</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>532.5055307114964</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-110.6603986574251,34.95070912441268,1544.191490784414</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05E7AE410C2C522E6ED0">
+		<name>KA CRSH</name>
+		<LookAt>
+			<longitude>-105.578668617659</longitude>
+			<latitude>34.47690972049735</latitude>
+			<altitude>1842.468043377816</altitude>
+			<heading>359.8170371728083</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>17996.47954056971</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-105.5810433348647,34.47584342603044,1854.519323597867</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BC58154972C53CC750C">
+		<name>sighting</name>
+		<LookAt>
+			<longitude>-109.1506767161564</longitude>
+			<latitude>40.79913289745041</latitude>
+			<altitude>2281.37904103654</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>339125.389492996</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-109.5198544932782,40.7473023817561,2910.624563984882</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FC497C10E2C53E163F7">
+		<name>Offutt Air Force Base</name>
+		<gx:mid>/m/0x9c3</gx:mid>
+		<gx:fid>0x879477c2e10f0c3d:0xd7d7cf14fa470392</gx:fid>
+		<LookAt>
+			<longitude>-95.92220879999999</longitude>
+			<latitude>41.1175705</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>17513.41110881466</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-95.9145568,41.1242718,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="037CB12EF82C53F8DE4E">
+		<name>Winterhaven</name>
+		<gx:mid>/m/0qzty</gx:mid>
+		<gx:fid>0x80d6df36152717bd:0xb2057c7eddbbe5a</gx:fid>
+		<LookAt>
+			<longitude>-114.63898185</longitude>
+			<latitude>32.73831735</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1922.805884422897</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-114.6346751,32.739491,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E653AC2F72C53F98F3C">
+		<name>Valley of the Names</name>
+		<gx:mid>/g/11dxbvm1fk</gx:mid>
+		<gx:fid>0x80d6efa4a62a2889:0x32982852ba2fea8d</gx:fid>
+		<LookAt>
+			<longitude>-114.6843984</longitude>
+			<latitude>32.8745532</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>870.3134090635134</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-114.6843984,32.8745532,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C2B3DDF7E2C545CE662">
+		<name>Legend Rock State Petroglyph Site</name>
+		<gx:mid>/m/03ynryh</gx:mid>
+		<gx:fid>0x534ca8d02387bd1d:0x743f305558734a2f</gx:fid>
+		<LookAt>
+			<longitude>-108.5972969</longitude>
+			<latitude>43.8001888</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>737.1311707034338</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-108.5972969,43.8001888,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="055E03E1A62C5469FDA4">
+		<name>FSPXVIT113904</name>
+		<LookAt>
+			<longitude>-111.2310870093713</longitude>
+			<latitude>44.93826874499084</latitude>
+			<altitude>2729.686880516876</altitude>
+			<heading>-28.09047022413382</heading>
+			<tilt>0.07310521254054407</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>8510.540803814074</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-111.2400832339701,44.94057782215746,3021.287321059609</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D43D486432C54D362E8">
+		<name>Eglin Air Force Base</name>
+		<gx:mid>/m/0pyfg</gx:mid>
+		<gx:fid>0x88914037f6c1d0ff:0xffe5a5a6c7643e4f</gx:fid>
+		<LookAt>
+			<longitude>-86.55351045</longitude>
+			<latitude>30.46139245</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>10019.12526202573</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-86.5533382,30.4635583,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AE0657BF92C54D59CCD">
+		<name>Battelle Memorial Institute</name>
+		<gx:mid>/g/12602h67m</gx:mid>
+		<gx:fid>0x89b7b9d6afdf78e3:0x402fcc88d82252f4</gx:fid>
+		<LookAt>
+			<longitude>-77.00543590000001</longitude>
+			<latitude>38.8767448</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>800.6746330060503</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.0054366,38.8766514,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B9B3904782C54D6357A">
+		<name>Battelle</name>
+		<gx:mid>/g/1tf3psxv</gx:mid>
+		<gx:fid>0x89b7b79d78511aef:0x6b94d2e5ef3f2121</gx:fid>
+		<LookAt>
+			<longitude>-77.0247605</longitude>
+			<latitude>38.88508219999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>800.5716850284409</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.0247605,38.8850822,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="043D8CD6042C54D68A95">
+		<name>Battelle</name>
+		<gx:mid>/g/1wbg093w</gx:mid>
+		<gx:fid>0x89b7b661f8662efd:0x9cc26156c991345e</gx:fid>
+		<LookAt>
+			<longitude>-77.0853766</longitude>
+			<latitude>38.8918452</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>800.4881652260058</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.0853766,38.8918452,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04F7A068CA2C54D6CE55">
+		<name>Battelle</name>
+		<gx:mid>/g/11jpy_gd5h</gx:mid>
+		<gx:fid>0x89b647be96b69219:0xd3161f6b6c27b36f</gx:fid>
+		<LookAt>
+			<longitude>-77.4508888</longitude>
+			<latitude>38.9094386</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>800.2708444534526</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.4512379,38.9095768,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FD48E0A6F2C54D6F503">
+		<name>Battelle Memorial Institute</name>
+		<gx:mid>/g/1tftrzz6</gx:mid>
+		<gx:fid>0x89b7c6cbf6a5cb01:0x9139aa9b5fa3750a</gx:fid>
+		<LookAt>
+			<longitude>-76.92197139999999</longitude>
+			<latitude>38.9709414</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>799.5105615454529</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-76.92197139999999,38.9709414,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C2A9C56BF2C54D73A31">
+		<name>Battelle</name>
+		<gx:mid>/g/11hcvzr3rw</gx:mid>
+		<gx:fid>0x89b7b9d6662c793b:0xab2ef4ab2b241631</gx:fid>
+		<LookAt>
+			<longitude>-77.0087083</longitude>
+			<latitude>38.8762975</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>800.6801556810278</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.0087083,38.8762975,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EA773B7ED2C54D7948F">
+		<name>Battelle - West Jefferson Office</name>
+		<gx:mid>/g/1twy_6h7</gx:mid>
+		<gx:fid>0x8838bd5f85f4f5ed:0xff8193694451eaee</gx:fid>
+		<LookAt>
+			<longitude>-83.25575119999999</longitude>
+			<latitude>39.9629132</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>787.1254861038133</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-83.25575119999999,39.9629132,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0742039AE82C54D80827">
+		<name>Battelle Memorial Institute</name>
+		<gx:mid>/g/1tjbs_xs</gx:mid>
+		<gx:fid>0x88f50881ce0574bd:0xa16c3d282eeb1007</gx:fid>
+		<LookAt>
+			<longitude>-84.3143391</longitude>
+			<latitude>33.8449407</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>859.6828483661702</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-84.3142617,33.8449534,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0ED7144CE42C54D81E0B">
+		<name>Battelle - Dayton Office</name>
+		<gx:mid>/g/1tg35x74</gx:mid>
+		<gx:fid>0x88408322cf3e08dd:0x1687a394c8a89855</gx:fid>
+		<LookAt>
+			<longitude>-84.1202361</longitude>
+			<latitude>39.7815801</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>789.4066018699177</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-84.1202361,39.7815801,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00C6739DF72C54D83B8E">
+		<name>Battelle</name>
+		<gx:mid>/g/1tj33t1v</gx:mid>
+		<gx:fid>0x88388eeed79a8b21:0x6d56df93302c950f</gx:fid>
+		<LookAt>
+			<longitude>-83.02068799999999</longitude>
+			<latitude>39.989692</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>786.7879734548272</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-83.02068799999999,39.989692,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06570601B72C54D84925">
+		<name>Battelle</name>
+		<gx:mid>/g/11js54xzky</gx:mid>
+		<gx:fid>0x883891d133832961:0x8e066d6b28d801a6</gx:fid>
+		<LookAt>
+			<longitude>-83.1207106</longitude>
+			<latitude>40.0097797</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>786.5346851120341</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-83.1207106,40.0097797,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A1FDDBB562C54D87B22">
+		<name>Battelle</name>
+		<gx:mid>/g/1tdwfv3p</gx:mid>
+		<gx:fid>0x89c0e86959e683a9:0xafb70160e8fa389f</gx:fid>
+		<LookAt>
+			<longitude>-74.5634005</longitude>
+			<latitude>39.42024509999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>793.929340711178</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-74.5631494,39.4203672,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="077154AF5A2C54D934C1">
+		<name>Battelle Memorial Institute</name>
+		<gx:mid>/g/1tmg689w</gx:mid>
+		<gx:fid>0x549864644cfd7c67:0x74b653ea9497e4f0</gx:fid>
+		<LookAt>
+			<longitude>-119.2792298</longitude>
+			<latitude>46.3451404</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>702.2665933689358</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-119.2792298,46.3451413,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B4EDD78E22C54D98033">
+		<name>Battelle</name>
+		<gx:mid>/g/125_xvg5d</gx:mid>
+		<gx:fid>0x549105e323ab8747:0xaf8db82f4cc16801</gx:fid>
+		<LookAt>
+			<longitude>-122.589502</longitude>
+			<latitude>47.0918915</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>691.7960150025103</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-122.589502,47.09189149999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="022F77BFE22C54F4AF0F">
+		<name>Los Alamos National Laboratory</name>
+		<gx:mid>/m/09htk</gx:mid>
+		<gx:fid>0x87181246af22e765:0x7f5a90170c5df1b4</gx:fid>
+		<LookAt>
+			<longitude>-106.3201361</longitude>
+			<latitude>35.8775628</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>836.6138830910741</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-106.3201361,35.8775628,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B2FFDA6D52C54F6C4E5">
+		<name>505 King Ave</name>
+		<gx:mid>/g/11rk5dq4w3</gx:mid>
+		<gx:fid>0x88388f21dbb3a7b3:0xae1156d6b5203ca9</gx:fid>
+		<LookAt>
+			<longitude>-83.0201419</longitude>
+			<latitude>39.99044010000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>786.7785422343386</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-83.0201419,39.9904401,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A72F839F02C54F7884F">
+		<name>TRIAD National Security</name>
+		<LookAt>
+			<longitude>-83.01961067517016</longitude>
+			<latitude>39.98993097622883</latitude>
+			<altitude>221.0119071675276</altitude>
+			<heading>2.795541743489889</heading>
+			<tilt>0.0920197603166806</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>403.1974257521507</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-83.02000407550652,39.99052023582567,220.6305507690674</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D431DA6E52C55240D9F">
+		<name>BAE Systems</name>
+		<gx:mid>/g/11b6hw_3v4</gx:mid>
+		<gx:fid>0x487b6a596eb2156b:0x5064ca44f6cbe453</gx:fid>
+		<LookAt>
+			<longitude>-2.891553</longitude>
+			<latitude>53.749543</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>594.1412077132675</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.891553,53.749543,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A46A024632C5524950F">
+		<name>BAE Systems</name>
+		<gx:mid>/g/1hc2wsgmt</gx:mid>
+		<gx:fid>0x487b7436b76dbda5:0x4e948452a6145508</gx:fid>
+		<LookAt>
+			<longitude>-2.5681369</longitude>
+			<latitude>53.7761176</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>593.7373170116526</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.5681369,53.7761176,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04A25A7F052C5526AFB5">
+		<name>Tunguska Meteorite</name>
+		<gx:mid>/g/11b7q7dz5w</gx:mid>
+		<gx:fid>0x5cecad1972afabb3:0xa6352a536d8bc585</gx:fid>
+		<LookAt>
+			<longitude>101.8981189</longitude>
+			<latitude>60.9114363</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>482.0084493532224</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>101.8981189,60.9114363,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C6780E42C2C552A0A4F">
+		<name>Geoglyphs</name>
+		<LookAt>
+			<longitude>101.3681933100019</longitude>
+			<latitude>62.00344052412193</latitude>
+			<altitude>521.6583742190139</altitude>
+			<heading>-6.242945728841317</heading>
+			<tilt>0.7110481327221445</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>34882.85813250113</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>101.4565143495081,62.02349626530279,475.5162039680802</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="042F15CD2E2C552C63BD">
+		<name>Geoglyph Area</name>
+		<LookAt>
+			<longitude>101.4517664996897</longitude>
+			<latitude>62.0147147993639</latitude>
+			<altitude>462.2128372790967</altitude>
+			<heading>-6.229525167805088</heading>
+			<tilt>0.7120640723234343</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>44036.18385562208</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						101.1958858555326,62.00697577870394,0 101.3696278934567,61.91170686887088,0 101.7799807722603,62.02113306082305,0 101.5487602194322,62.10983146890636,0 101.1958858555326,62.00697577870394,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0AEF55A8EA2C553089C5">
+		<name>REDACT SVT</name>
+		<LookAt>
+			<longitude>86.06231361734889</longitude>
+			<latitude>74.32122021211326</latitude>
+			<altitude>29.41920328932977</altitude>
+			<heading>-4.982101259977394</heading>
+			<tilt>0.7098909270152086</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>24454.79707865277</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>86.08391527168878,74.32650497416137,29.42033587056709</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="011A0C97352C57A6C3D2">
+		<name>Naval Hospital Medical Center</name>
+		<gx:mid>/g/1tjcqhyl</gx:mid>
+		<gx:fid>0x9105c944ca9a62e5:0x85884f1e69a9240c</gx:fid>
+		<LookAt>
+			<longitude>-77.09044349999999</longitude>
+			<latitude>-12.0602837</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1030.488714701429</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.09044349999999,-12.0602837,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B41B38C202C57AA0ABF">
+		<name>NAMRU 3 - The U.S. Naval Research Unit 3</name>
+		<gx:mid>/g/11h7q8nqbd</gx:mid>
+		<gx:fid>0x14583977c2cd8563:0xde816abf522d33ab</gx:fid>
+		<LookAt>
+			<longitude>31.2862051</longitude>
+			<latitude>29.9722493</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>900.5747217569091</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>31.2862089,29.9723023,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09E8FA70662C57ACEEC3">
+		<name>Svalbard Global Seed Vault</name>
+		<gx:mid>/m/09x4h4</gx:mid>
+		<gx:fid>0x459c54abde19eff1:0x15fa4670a5924662</gx:fid>
+		<LookAt>
+			<longitude>15.4913249</longitude>
+			<latitude>78.2356772</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>194.8553688510583</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>15.4913249,78.2356772,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02C895B5402C57B2ED6C">
+		<name>Esrange</name>
+		<gx:mid>/g/1tdnctwl</gx:mid>
+		<gx:fid>0x45d0dcdfc6464a53:0xf38bcd6cc95300f</gx:fid>
+		<LookAt>
+			<longitude>21.12423</longitude>
+			<latitude>67.88358965</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1687.619139817303</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>21.12423,67.88359,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="038888EFC02C57B7AFD1">
+		<name>Runit Island Nuclear Sarcophagus</name>
+		<LookAt>
+			<longitude>162.3474022222825</longitude>
+			<latitude>11.55200873974576</latitude>
+			<altitude>-0.5107108052306186</altitude>
+			<heading>5.291460691408142</heading>
+			<tilt>23.96977062401142</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>428.3314462738781</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>162.34797415655,11.55171873188195,-0.5112857359272083</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02AD8D0D2D2C57D04768">
+		<name>smooth dome measure</name>
+		<LookAt>
+			<longitude>99.72031126680858</longitude>
+			<latitude>-66.60349484935064</latitude>
+			<altitude>155.5991692311965</altitude>
+			<heading>8.598894964386798</heading>
+			<tilt>23.21697156229405</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>542.6394724795682</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						99.72045822411742,-66.60366813742263,0 99.72058643670022,-66.60355052732928,0 99.72047792570459,-66.60345470127798,0 99.72044175588911,-66.6033365989734,0 99.72021187592998,-66.60333301905172,0 99.7200664058432,-66.60341639225491,0 99.71998682732686,-66.60352555218357,0 99.7200514339055,-66.60363833324675,0 99.72045822411742,-66.60366813742263,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0DB87DB3992C57D3BA67">
+		<name>Smooth Dome Structure</name>
+		<LookAt>
+			<longitude>99.76360883264191</longitude>
+			<latitude>-66.59089794507777</latitude>
+			<altitude>157.2585973315913</altitude>
+			<heading>5.716088933883047e-09</heading>
+			<tilt>23.24902760704907</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>9585.543821031461</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>99.7243190110662,-66.60314066767775,157.3658123981296</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05BD9B185A2C57D4A77A">
+		<name>distance to polar station</name>
+		<LookAt>
+			<longitude>100.3155102175099</longitude>
+			<latitude>-66.35100679297061</latitude>
+			<altitude>74.43427279090679</altitude>
+			<heading>5.714125444199636e-09</heading>
+			<tilt>23.49866421674706</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>80005.87485205382</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<LineString>
+			<coordinates>
+				99.72022532358424,-66.60346871364416,0 100.744486652374,-66.28764969084979,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="00F4F6AA6F2C57D8CDAB">
+		<name>80°34&apos;08.4&quot;S 30°05&apos;19.3&quot;W</name>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-30.0886944,-80.569,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0588E09AB12C57E3C13E">
+		<name>Anza-Borrego Desert State Park</name>
+		<gx:mid>/m/02dx7z</gx:mid>
+		<gx:fid>0x80da2bb83a98cc73:0xc243b6b9a84126fe</gx:fid>
+		<LookAt>
+			<longitude>-116.3013266</longitude>
+			<latitude>33.10049199999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>867.8607568912661</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-116.3013266,33.100492,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F89E07E652C58F00CB5">
+		<name>Idaho National Laboratory</name>
+		<gx:mid>/m/03wcyn</gx:mid>
+		<gx:fid>0x53545c09434a4b2f:0x83617a03052ad24d</gx:fid>
+		<LookAt>
+			<longitude>-112.0459325</longitude>
+			<latitude>43.5194849</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>740.896156503855</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-112.0459374,43.5192653,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F1CC75B492C58F09834">
+		<name>National Renewable Energy Laboratory</name>
+		<gx:mid>/m/05qbj3</gx:mid>
+		<gx:fid>0x876b8447ac5c1287:0x94064ff49c771448</gx:fid>
+		<LookAt>
+			<longitude>-105.1686147</longitude>
+			<latitude>39.7407258</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>789.9194864690396</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-105.1686147,39.7407258,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C8E49D22B2C58F12B32">
+		<name>Pacific Northwest National Laboratory</name>
+		<gx:mid>/m/0k1jw</gx:mid>
+		<gx:fid>0x549864644cfd7c67:0xb6e004ff420dd7a3</gx:fid>
+		<LookAt>
+			<longitude>-119.2792298</longitude>
+			<latitude>46.3451404</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>702.2665933689358</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-119.2792298,46.34514039999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="069CBDA4E32C58F202EC">
+		<name>Battelle National Biodefense Institute</name>
+		<gx:mid>/g/12628vhkq</gx:mid>
+		<gx:fid>0x89c9db1c47b497dd:0xa08470e7b715feb7</gx:fid>
+		<LookAt>
+			<longitude>-77.42279839999999</longitude>
+			<latitude>39.4414595</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>793.6646460878121</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-77.42279839999999,39.4414595,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="032F7691692C58F75ECF">
+		<name>Junction Ranch</name>
+		<gx:mid>/m/048phfj</gx:mid>
+		<gx:fid>0x80c0de79a25b7fad:0x33542ff210d6e9e4</gx:fid>
+		<LookAt>
+			<longitude>-117.51194</longitude>
+			<latitude>36.07388945</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4330.267523128352</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-117.51194,36.07389,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06355CEF232C58F8D339">
+		<name>Savannah River National Laboratory</name>
+		<gx:mid>/m/02qc66j</gx:mid>
+		<gx:fid>0x88f9b1ebff5221b1:0x48c8b06589434c2d</gx:fid>
+		<LookAt>
+			<longitude>-81.73780599999999</longitude>
+			<latitude>33.3427389</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>865.2158535773513</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-81.73780599999999,33.3427389,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00EA7A57E72C58FF84EA">
+		<name>Hukou Base</name>
+		<LookAt>
+			<longitude>121.0207774254563</longitude>
+			<latitude>24.8562899835616</latitude>
+			<altitude>91.85315313001033</altitude>
+			<heading>18.33504720734769</heading>
+			<tilt>8.170035703729171</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1077.826605081791</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>121.021109995117,24.85674247964878,91.663534710552</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F80D5068D2C590438EF">
+		<name>23°48&apos;00.0&quot;S 133°44&apos;15.0&quot;E</name>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>133.7375,-23.8,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="095541ADA72C590A8CF1">
+		<name>49°50&apos;37.6&quot;N 8°35&apos;03.3&quot;E</name>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>8.5842361,49.84378059999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09C141AA422C598117C8">
+		<name>Henderson Field (Midway Atoll)</name>
+		<gx:mid>/m/09_rp0</gx:mid>
+		<gx:fid>0x7cb83cb52537cd83:0xcb22a43cd79cfc07</gx:fid>
+		<LookAt>
+			<longitude>-177.3803724</longitude>
+			<latitude>28.2020857</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>917.8647704848198</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-177.3803724,28.2020857,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05AAE4966E2C5A1B1AD3">
+		<name>32°19&apos;25.7&quot;N 64°44&apos;18.7&quot;W</name>
+		<description><![CDATA[<div>got one! lol.</div>]]></description>
+		<styleUrl>#__managed_style_031E38F9302C9EAF18DF</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-64.73853819999999,32.3238019,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0901864CDC2C5A4262E9">
+		<name>Weaving Unity</name>
+		<gx:mid>/g/1tk234wl</gx:mid>
+		<gx:fid>0x808e5211a1b0d7b5:0x20790f5508f0ddf5</gx:fid>
+		<LookAt>
+			<longitude>-122.1882211</longitude>
+			<latitude>37.1662452</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>821.442442979039</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-122.1882211,37.1662452,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0539352F982C5A4344A6">
+		<name>Big Basin POI</name>
+		<LookAt>
+			<longitude>-122.2285271101923</longitude>
+			<latitude>37.16467822191029</latitude>
+			<altitude>299.8037504302927</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>700.4030870144925</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-122.228602622881,37.16453296859462,296.5283530565569</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0498ED5F472C5A5850CB">
+		<name>30°26&apos;36.7&quot;N 88°32&apos;15.0&quot;W</name>
+		<description><![CDATA[<div>And you as well...</div>]]></description>
+		<styleUrl>#__managed_style_031E38F9302C9EAF18DF</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-88.5374927,30.4435348,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AD429D6A62C5ABC6DC1">
+		<name>Basilica of the Most Holy Trinity</name>
+		<gx:mid>/m/03hkrms</gx:mid>
+		<gx:fid>0xd189d3b966a57dd:0xafeafc5920e8af15</gx:fid>
+		<LookAt>
+			<longitude>-8.675262399999999</longitude>
+			<latitude>39.6296653</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>791.3117818192453</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-8.675750337621512,39.62929741209574,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04C34FD0B32C5E88069A">
+		<name>REDACT Brazil</name>
+		<LookAt>
+			<longitude>-35.7347596456171</longitude>
+			<latitude>-9.333157418807813</latitude>
+			<altitude>103.281294140828</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>189.6714159463409</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-35.73497331485351,-9.333027845456343,100.2564281707183</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="001142DD912C5E9BC7CC">
+		<name>Medellin Sighting</name>
+		<LookAt>
+			<longitude>-75.58144732782701</longitude>
+			<latitude>6.257814651350529</latitude>
+			<altitude>1473.938148764578</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4464.923098784639</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-75.58546929174901,6.258248849223213,1480.192097356132</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0382D334432C5ECFFEE1">
+		<name>Weyauwega Sighting</name>
+		<LookAt>
+			<longitude>-88.91598050619288</longitude>
+			<latitude>44.32580215679384</latitude>
+			<altitude>256.856609624463</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1638.629017878848</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-88.9165952045263,44.32526118789451,258.3983769417495</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00D2CAEF3A2C5ED2D279">
+		<name>Weyauwega Sighting Area</name>
+		<LookAt>
+			<longitude>-88.91786623474134</longitude>
+			<latitude>44.32703956462459</latitude>
+			<altitude>234.3026505488683</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3115.093087814748</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-88.92966012194717,44.32685534575297,0 -88.92997368831035,44.32350090052417,0 -88.91759764336746,44.32348934595395,0 -88.91456947786324,44.32603007691685,0 -88.91546505569175,44.32786623440959,0 -88.92139672648212,44.32961090202502,0 -88.92699020901101,44.32839780474988,0 -88.92966012194717,44.32685534575297,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="075E1E99802C5F0049E6">
+		<name>Dog Bone Lake</name>
+		<LookAt>
+			<longitude>-115.4462116331214</longitude>
+			<latitude>36.88261505425046</latitude>
+			<altitude>1044.54402108378</altitude>
+			<heading>63.91066513759418</heading>
+			<tilt>4.403580945016908</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>13870.46634561383</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-115.450061234119,36.87534584021039,1040.739392895748</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07B47767082C5F5A4E5B">
+		<name>Gate of the Moon</name>
+		<gx:mid>/g/121vr31t</gx:mid>
+		<gx:fid>0x915ebd0c4f2f8563:0x768651984562b9f3</gx:fid>
+		<LookAt>
+			<longitude>-68.6761487</longitude>
+			<latitude>-16.5535969</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1007.720400736996</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-68.6761487,-16.5535969,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C814E2EAC2C5F64FFC2">
+		<name>Tassili N&apos;Ajjer National Park</name>
+		<gx:mid>/m/04fd59</gx:mid>
+		<gx:fid>0x122fdbeba6018327:0x18a5b5fc3f3fad26</gx:fid>
+		<LookAt>
+			<longitude>8.133855799999999</longitude>
+			<latitude>25.81359449999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>939.7380394812525</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>8.133855799999999,25.81359449999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C8E066A202C60B82500">
+		<name>Untitled placemark</name>
+		<LookAt>
+			<longitude>1.058715952303999</longitude>
+			<latitude>51.11078577687192</latitude>
+			<altitude>90.9460136004128</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>619.8346921968187</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>1.057323087389792,51.11128074295341,88.91991843517232</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EA6BE3FC62C6349C4A0">
+		<name>Maceio Approximate</name>
+		<LookAt>
+			<longitude>-35.73017281179879</longitude>
+			<latitude>-9.668584184239982</latitude>
+			<altitude>5.089332474589385</altitude>
+			<heading>179.0790866561001</heading>
+			<tilt>60.27417918563975</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1204.627264631999</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-35.73343370708555,-9.663448402745857,22.82587171114029</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00B5BD27DA2C634C8BDA">
+		<name>Maceio Sighting Area</name>
+		<description><![CDATA[<div>Probably an emergency flare test.&nbsp;</div>]]></description>
+		<LookAt>
+			<longitude>-35.73776174260655</longitude>
+			<latitude>-9.673781779290405</latitude>
+			<altitude>1.723233857117588</altitude>
+			<heading>167.7570401142861</heading>
+			<tilt>52.57072092507561</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4951.140553104342</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_031E38F9302C9EAF18DF</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-35.73349231321735,-9.66392164714758,0 -35.76400573425774,-9.716083532341434,0 -35.72390284763066,-9.728743945344677,0 -35.73127902067625,-9.664051722499238,0 -35.73349231321735,-9.66392164714758,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="094D007D552C63895796">
+		<name>Great Ziggurat of Ur</name>
+		<gx:mid>/m/05xl84</gx:mid>
+		<gx:fid>0x3fde0f04bcb0e269:0x3cc2e62923d6aa66</gx:fid>
+		<LookAt>
+			<longitude>46.1031778</longitude>
+			<latitude>30.9627548</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>890.5099724944835</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>46.1031778,30.9627548,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04DA668E052C64C934A1">
+		<name>Untitled placemark</name>
+		<LookAt>
+			<longitude>-104.8440921877528</longitude>
+			<latitude>38.74411113401593</latitude>
+			<altitude>2131.468646645347</altitude>
+			<heading>2.40339591138823e-05</heading>
+			<tilt>0.5772321403340503</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1060.648851802689</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-104.8459048,38.7441348,2150.657735487724</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07D1A86FDA2C6500934B">
+		<name>Uruk</name>
+		<gx:mid>/g/1pp2vf6_8</gx:mid>
+		<gx:fid>0x3fe0f661d036c591:0xa38fa43ef51c0511</gx:fid>
+		<LookAt>
+			<longitude>45.6388031</longitude>
+			<latitude>31.3243503</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>886.7672140812758</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>45.6388031,31.3243503,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="081A6494BF2C65061C5C">
+		<name>برج الشيخ عطاوي ناصر</name>
+		<gx:mid>/g/11s_yxz3_r</gx:mid>
+		<gx:fid>0x3fe0fb90ecd6acf7:0xf7cbff2d07997919</gx:fid>
+		<LookAt>
+			<longitude>45.7002094</longitude>
+			<latitude>31.4317929</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>885.6481094762311</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>45.7002094,31.4317929,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A46402C2F2C651E1969">
+		<name>Tell Eridu Archaeological Site UNESCO</name>
+		<gx:mid>/g/11hbph9t44</gx:mid>
+		<gx:fid>0x3fde1341a1b366eb:0x96a76297100886e7</gx:fid>
+		<LookAt>
+			<longitude>45.9956551</longitude>
+			<latitude>30.817289</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>892.005357903411</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>45.9956551,30.817289,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02BAA205E32C691ECDE9">
+		<name>Amundsen Scott</name>
+		<LookAt>
+			<longitude>109.5086433977322</longitude>
+			<latitude>-87.27132468841039</latitude>
+			<altitude>2297.482027650919</altitude>
+			<heading>275.5333008036983</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999999997</gx:fovy>
+			<range>4206585.47841847</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-140.5163475915793,-89.88707878844387,3244.809267869508</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C14CF15752C6B6329D5">
+		<name>Smaelog Woods</name>
+		<gx:mid>/g/11hzppzdk1</gx:mid>
+		<gx:fid>0x486e11fac5e9f203:0x7d2a9cd33161af5f</gx:fid>
+		<LookAt>
+			<longitude>-3.4087452</longitude>
+			<latitude>51.5525562</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>627.1678311402867</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-3.4087452,51.5525562,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A43AC2DF32C6B67810C">
+		<name>Pentyrch</name>
+		<gx:mid>/m/060h3q</gx:mid>
+		<gx:fid>0x486e1a75a9cd56bd:0x5fda5d99b36762ff</gx:fid>
+		<LookAt>
+			<longitude>-3.2974636</longitude>
+			<latitude>51.5292088</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3098.318882387533</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-3.294356,51.52884199999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FEB33EBDE2C6B6BCE77">
+		<name>Llantrisant Common</name>
+		<gx:mid>/g/11qzln9b84</gx:mid>
+		<gx:fid>0x486e11796f03d41f:0x58ca25a620f52173</gx:fid>
+		<LookAt>
+			<longitude>-3.374239499999999</longitude>
+			<latitude>51.5492936</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>627.2163245163938</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-3.3742395,51.5492936,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0038111C2D2C6B6D27D6">
+		<name>Smaelog POI</name>
+		<LookAt>
+			<longitude>-3.406779573148706</longitude>
+			<latitude>51.55361764654208</latitude>
+			<altitude>95.97155832958273</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>344.1412270698493</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-3.406817186304027,51.55359925399911,96.55534039329658</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0502A01FEA2C6B8FB1F5">
+		<name>Ufo 435</name>
+		<gx:mid>/g/11sk8cdjv4</gx:mid>
+		<gx:fid>0x32fbb9789c540001:0xf917003fe5db9738</gx:fid>
+		<LookAt>
+			<longitude>126.324859</longitude>
+			<latitude>6.9996831</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1047.730739795872</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>126.324859,6.9996831,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="054DE667742C6B96BA2F">
+		<name>Nakao Bridge</name>
+		<gx:mid>/g/11ggk3k80x</gx:mid>
+		<gx:fid>0x60004eaf9ea45a25:0xb8593736a5f5419d</gx:fid>
+		<LookAt>
+			<longitude>135.5178792</longitude>
+			<latitude>35.1452797</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>845.0479754357482</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>135.5178792,35.1452797,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="089FE3554C2C7033828A">
+		<name>Bohemian Grove</name>
+		<gx:mid>/g/1ts3fv9n</gx:mid>
+		<gx:fid>0x808423cd8a61efeb:0xd4a5db994d254824</gx:fid>
+		<LookAt>
+			<longitude>-122.9774984</longitude>
+			<latitude>38.4654687</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4154.749214671689</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-122.9774984,38.4654692,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01829A19EB2C70352617">
+		<name>Don&apos;t want to know</name>
+		<LookAt>
+			<longitude>-123.0015724997057</longitude>
+			<latitude>38.46785524133209</latitude>
+			<altitude>11.17595669112549</altitude>
+			<heading>123.2265314537873</heading>
+			<tilt>10.90238806853171</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>269.8094606879022</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-123.0011533549615,38.46761171415477,10.07711715621852</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B1CDC4E3C2C70C58210">
+		<name>OK ASP</name>
+		<LookAt>
+			<longitude>-99.19636023709879</longitude>
+			<latitude>35.34847951884205</latitude>
+			<altitude>582.5341642552494</altitude>
+			<heading>3.860154957486473e-08</heading>
+			<tilt>0.3345618898656121</tilt>
+			<gx:fovy>34.99999999770301</gx:fovy>
+			<range>4692.457777120289</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-99.19939464652774,35.34695847120736,583.1777662538302</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="009F7BD1702C7649F348">
+		<name>Colares</name>
+		<gx:mid>/g/11bc5s7kd8</gx:mid>
+		<gx:fid>0x92a426ff3726d997:0x8e6eaff63557192d</gx:fid>
+		<LookAt>
+			<longitude>-48.28135525</longitude>
+			<latitude>-0.9348611999999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>5745.076215657151</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-48.2837967,-0.9328031999999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09BED9FB052C77B749F0">
+		<name>Cueva de los tayos</name>
+		<gx:mid>/g/1233ffjw</gx:mid>
+		<gx:fid>0x91cc3571f554a561:0x71fefe6280487b3</gx:fid>
+		<LookAt>
+			<longitude>-78.2045263</longitude>
+			<latitude>-3.051878</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1054.864491943757</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-78.2045263,-3.051878,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0EAC5B773C2C7A267DEE">
+		<name>Untitled measurement</name>
+		<LookAt>
+			<longitude>125.3995771045558</longitude>
+			<latitude>7.027898958674068</latitude>
+			<altitude>780.8786372906928</altitude>
+			<heading>267.8196748303968</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.9999999999869</gx:fovy>
+			<range>4802.476093236474</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<LineString>
+			<coordinates>
+				125.5830113973342,7.053218640727031,0 125.3986166555872,7.037853918174477,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="05BC502D522C8583C2F4">
+		<name>Kachina Peaks Wilderness</name>
+		<gx:mid>/m/03ynn8v</gx:mid>
+		<gx:fid>0x8732790ed2ecff21:0x77bbf17a8bc58b26</gx:fid>
+		<LookAt>
+			<longitude>-111.6931929</longitude>
+			<latitude>35.3408122</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>842.809356500745</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-111.6931929,35.34081219999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09BEC4D1EC2C85880438">
+		<name>AZ POI</name>
+		<LookAt>
+			<longitude>-111.6418934286665</longitude>
+			<latitude>35.58748781742618</latitude>
+			<altitude>1895.438640768765</altitude>
+			<heading>-34.13470215270254</heading>
+			<tilt>34.5316470654773</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>11425.80441762228</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<Point>
+			<coordinates>-111.6243088686044,35.58534430948696,1885.510393458279</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C0AE180052C8647EB90">
+		<name>Device Assembly Facility</name>
+		<gx:mid>/g/11h0ygh9w8</gx:mid>
+		<gx:fid>0x80c78d4f5c22944d:0x3996ba5f4738e147</gx:fid>
+		<LookAt>
+			<longitude>-116.0473092</longitude>
+			<latitude>36.8967207</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>824.6497691852475</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-116.0473092,36.8967207,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03D3B3F3462C8BBA155C">
+		<name>Lake Zurich</name>
+		<gx:mid>/m/0g6vg</gx:mid>
+		<gx:fid>0x479aba90b8887a5f:0x6ac6428c5e8536ef</gx:fid>
+		<LookAt>
+			<longitude>8.741271849999999</longitude>
+			<latitude>47.2837024</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>63080.18407962205</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_076D4D7D1A2C9EAF18DC</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>8.752711399999999,47.2225216,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02866B3A892C8BBB3683">
+		<name>Diessenhoffen to Lake Zurich</name>
+		<LookAt>
+			<longitude>8.748952722150287</longitude>
+			<latitude>47.28328021613788</latitude>
+			<altitude>517.0250814421802</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.9999792058883</gx:fovy>
+			<range>39299.97900868301</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<LineString>
+			<coordinates>
+				8.747903075557204,47.68927504440398,0 8.752203545642443,47.23378972422292,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0D674840E82C9A85BDD2">
+		<name>TRS SEAT ALPHA</name>
+		<LookAt>
+			<longitude>142.3955393221293</longitude>
+			<latitude>-21.82887562548875</latitude>
+			<altitude>182.5917483057315</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.9999999004151</gx:fovy>
+			<range>7549.414338612696</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_327C39B0902C9EAF18DC</styleUrl>
+		<LineString>
+			<coordinates>
+				142.4173100388273,-21.83741112874716,0 142.3788780565958,-21.82958691645594,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
